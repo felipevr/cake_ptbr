@@ -52,7 +52,7 @@ class EstadoBrasileiro extends AppModel {
 	public function __construct($id = false, $table = null, $ds = null) {
 		parent::__construct();
 
-		App::import('Vendor', 'CakePtbr.Estados');
+		App::import('Vendor', 'CakePor.Estados');
 		$this->_estados = Estados::lista();
 	}
 

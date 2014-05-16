@@ -14,8 +14,8 @@ App::uses('AppHelper', 'View/Helper');
 App::uses('FormHelper', 'View/Helper');
 App::uses('HtmlHelper', 'View/Helper');
 App::uses('Controller', 'Controller');
-App::uses('EstadosHelper', 'CakePtbr.View/Helper');
-App::uses('Estados', 'CakePtbr.Vendor');
+App::uses('EstadosHelper', 'CakePor.View/Helper');
+App::uses('Estados', 'CakePor.Vendor');
 
 /**
  * Controller Test
@@ -44,7 +44,7 @@ class ControllerTestController extends Controller {
  * Estado Test Case
  *
  */
-class CakePtbrEstadosCase extends CakeTestCase {
+class CakePorEstadosCase extends CakeTestCase {
 
 /**
  * Estados

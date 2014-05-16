@@ -10,13 +10,13 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-include CakePlugin::path('CakePtbr') . 'Config' . DS . 'traducao_core.php';
+include CakePlugin::path('CakePor') . 'Config' . DS . 'traducao_core.php';
 
 /**
  * I18n Test Case
  *
  */
-class CakePtbrI18nCase extends CakeTestCase {
+class CakePorI18nCase extends CakeTestCase {
 
 /**
  * testCore

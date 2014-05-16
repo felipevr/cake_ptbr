@@ -15,13 +15,13 @@ App::uses('View', 'View');
 App::uses('AppHelper', 'View/Helper');
 App::uses('TimeHelper', 'View/Helper');
 App::uses('NumberHelper', 'View/Helper');
-App::uses('FormatacaoHelper', 'CakePtbr.View/Helper');
+App::uses('FormatacaoHelper', 'CakePor.View/Helper');
 
 /**
  * Formatacao Test Case
  *
  */
-class CakePtbrFormatacaoCase extends CakeTestCase {
+class CakePorFormatacaoCase extends CakeTestCase {
 
 /**
  * Formatação

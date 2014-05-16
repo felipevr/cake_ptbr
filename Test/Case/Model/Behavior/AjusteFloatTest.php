@@ -11,7 +11,7 @@
  */
 
 App::uses('Model', 'Model');
-App::uses('AjusteFloat', 'CakePtbr.Model/Behavior');
+App::uses('AjusteFloat', 'CakePor.Model/Behavior');
 
 /**
  * Produto
@@ -33,7 +33,7 @@ class Produto extends CakeTestModel {
  * @var array
  * @access public
  */
-	public $actsAs = array('CakePtbr.AjusteFloat');
+	public $actsAs = array('CakePor.AjusteFloat');
 
 /**
  * Executa o beforeFind dos behaviors
@@ -53,7 +53,7 @@ class Produto extends CakeTestModel {
  * AjusteFloat Test Case
  *
  */
-class CakePtbrAjusteFloat extends CakeTestCase {
+class CakePorAjusteFloat extends CakeTestCase {
 
 /**
  * Fixtures

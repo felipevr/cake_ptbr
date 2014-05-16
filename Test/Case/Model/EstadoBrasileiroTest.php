@@ -10,7 +10,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-App::uses('EstadoBrasileiro', 'CakePtbr.Model');
+App::uses('EstadoBrasileiro', 'CakePor.Model');
 App::uses('AppModel', 'Model');
 
 /**

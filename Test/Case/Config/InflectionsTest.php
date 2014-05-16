@@ -10,13 +10,13 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-include CakePlugin::path('CakePtbr') . DS . 'Config' . DS . 'inflections.php';
+include CakePlugin::path('CakePor') . DS . 'Config' . DS . 'inflections.php';
 
 /**
  * Inflections Test Case
  *
  */
-class CakePtbrInflectionsCase extends CakeTestCase {
+class CakePorInflectionsCase extends CakeTestCase {
 
 /**
  * testPlural

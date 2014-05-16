@@ -11,7 +11,7 @@
  */
 
 App::uses('Model', 'Model');
-App::import('Correios', 'CakePtbr.Model/Behavior');
+App::import('Correios', 'CakePor.Model/Behavior');
 
 Mock::generatePartial(
 	'CorreiosBehavior', 'MockCorreiosBehavior',
@@ -19,10 +19,10 @@ Mock::generatePartial(
 );
 
 /**
- * CakePtbr
+ * CakePor
  *
  */
-class CakePtbr extends Model {
+class CakePor extends Model {
 
 /**
  * Nome da model
@@ -30,7 +30,7 @@ class CakePtbr extends Model {
  * @var string
  * @access public
  */
-	public $name = 'CakePtbr';
+	public $name = 'CakePor';
 
 /**
  * Usar tabela?
@@ -46,14 +46,14 @@ class CakePtbr extends Model {
  * @var array
  * @access public
  */
-	public $actsAs = array('CakePtbr.Correios');
+	public $actsAs = array('CakePor.Correios');
 }
 
 /**
  * Correios Test Case
  *
  */
-class CakePtbrCorreiosCase extends CakeTestCase {
+class CakePorCorreiosCase extends CakeTestCase {
 
 /**
  * Correios

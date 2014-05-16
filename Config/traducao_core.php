@@ -12,7 +12,8 @@
  */
 
 // Definindo idioma da aplicação
-Configure::write('Config.language', 'pt-br');
+Configure::write('Config.language', 'por');
 
 // Adicionando o caminho do locale
-App::build(array('Locale' => array(CakePlugin::path('CakePtbr') . 'Locale' . DS)));
+App::build(array('Locale' => array(CakePlugin::path('CakePor') . 'Locale' . DS)));
+

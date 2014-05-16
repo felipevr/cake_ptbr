@@ -10,7 +10,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-require CakePlugin::path('CakePtbr') . DS . 'Console' . DS . 'Templates' . DS . 'default' . DS . 'Inflexao.php';
+require CakePlugin::path('CakePor') . DS . 'Console' . DS . 'Templates' . DS . 'default' . DS . 'Inflexao.php';
 
 /**
  * Inflexao

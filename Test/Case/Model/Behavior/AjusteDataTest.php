@@ -11,13 +11,13 @@
  */
 
 App::uses('Model', 'Model');
-App::uses('AjusteData', 'CakePtbr.Model/Behavior');
+App::uses('AjusteData', 'CakePor.Model/Behavior');
 
 /**
- * CakePtbrNoticia
+ * CakePorNoticia
  *
  */
-class CakePtbrNoticia extends Model {
+class CakePorNoticia extends Model {
 
 /**
  * Nome da model
@@ -47,10 +47,10 @@ class CakePtbrNoticia extends Model {
 }
 
 /**
- * CakePtbrNoticiaSemNada
+ * CakePorNoticiaSemNada
  *
  */
-class CakePtbrNoticiaSemNada extends CakePtbrNoticia {
+class CakePorNoticiaSemNada extends CakePorNoticia {
 
 /**
  * Nome da model
@@ -58,7 +58,7 @@ class CakePtbrNoticiaSemNada extends CakePtbrNoticia {
  * @var string
  * @access public
  */
-	public $name = 'CakePtbrNoticiaSemNada';
+	public $name = 'CakePorNoticiaSemNada';
 
 /**
  * Lista de Behaviors
@@ -66,15 +66,15 @@ class CakePtbrNoticiaSemNada extends CakePtbrNoticia {
  * @var array
  * @access public
  */
-	public $actsAs = array('CakePtbr.AjusteData');
+	public $actsAs = array('CakePor.AjusteData');
 
 }
 
 /**
- * CakePtbrNoticiaString
+ * CakePorNoticiaString
  *
  */
-class CakePtbrNoticiaString extends CakePtbrNoticia {
+class CakePorNoticiaString extends CakePorNoticia {
 
 /**
  * Nome da model
@@ -82,7 +82,7 @@ class CakePtbrNoticiaString extends CakePtbrNoticia {
  * @var string
  * @access public
  */
-	public $name = 'CakePtbrNoticiaString';
+	public $name = 'CakePorNoticiaString';
 
 /**
  * Lista de Behaviors
@@ -90,15 +90,15 @@ class CakePtbrNoticiaString extends CakePtbrNoticia {
  * @var array
  * @access public
  */
-	public $actsAs = array('CakePtbr.AjusteData' => 'data');
+	public $actsAs = array('CakePor.AjusteData' => 'data');
 
 }
 
 /**
- * CakePtbrNoticiaArrayVazio
+ * CakePorNoticiaArrayVazio
  *
  */
-class CakePtbrNoticiaArrayVazio extends CakePtbrNoticia {
+class CakePorNoticiaArrayVazio extends CakePorNoticia {
 
 /**
  * Nome da model
@@ -106,7 +106,7 @@ class CakePtbrNoticiaArrayVazio extends CakePtbrNoticia {
  * @var string
  * @access public
  */
-	public $name = 'CakePtbrNoticiaArrayVazio';
+	public $name = 'CakePorNoticiaArrayVazio';
 
 /**
  * Lista de Behaviors
@@ -114,15 +114,15 @@ class CakePtbrNoticiaArrayVazio extends CakePtbrNoticia {
  * @var array
  * @access public
  */
-	public $actsAs = array('CakePtbr.AjusteData' => array());
+	public $actsAs = array('CakePor.AjusteData' => array());
 
 }
 
 /**
- * CakePtbrNoticiaArrayComCampo
+ * CakePorNoticiaArrayComCampo
  *
  */
-class CakePtbrNoticiaArrayComCampo extends CakePtbrNoticia {
+class CakePorNoticiaArrayComCampo extends CakePorNoticia {
 
 /**
  * Nome da model
@@ -130,7 +130,7 @@ class CakePtbrNoticiaArrayComCampo extends CakePtbrNoticia {
  * @var string
  * @access public
  */
-	public $name = 'CakePtbrNoticiaArrayComCampo';
+	public $name = 'CakePorNoticiaArrayComCampo';
 
 /**
  * Lista de Behaviors
@@ -138,15 +138,15 @@ class CakePtbrNoticiaArrayComCampo extends CakePtbrNoticia {
  * @var array
  * @access public
  */
-	public $actsAs = array('CakePtbr.AjusteData' => array('data'));
+	public $actsAs = array('CakePor.AjusteData' => array('data'));
 
 }
 
 /**
- * CakePtbrNoticiaArrayComCampos
+ * CakePorNoticiaArrayComCampos
  *
  */
-class CakePtbrNoticiaArrayComCampos extends CakePtbrNoticia {
+class CakePorNoticiaArrayComCampos extends CakePorNoticia {
 
 /**
  * Nome da model
@@ -154,7 +154,7 @@ class CakePtbrNoticiaArrayComCampos extends CakePtbrNoticia {
  * @var string
  * @access public
  */
-	public $name = 'CakePtbrNoticiaArrayComCampos';
+	public $name = 'CakePorNoticiaArrayComCampos';
 
 /**
  * Lista de Behaviors
@@ -162,14 +162,14 @@ class CakePtbrNoticiaArrayComCampos extends CakePtbrNoticia {
  * @var array
  * @access public
  */
-	public $actsAs = array('CakePtbr.AjusteData' => array('data', 'publicado'));
+	public $actsAs = array('CakePor.AjusteData' => array('data', 'publicado'));
 }
 
 /**
  * AjusteData Test Case
  *
  */
-class CakePtbrAjusteData extends CakeTestCase {
+class CakePorAjusteData extends CakeTestCase {
 
 /**
  * Envio
@@ -193,7 +193,7 @@ class CakePtbrAjusteData extends CakeTestCase {
  */
 	public function testSemNada() {
 		$esperado = array(
-			'CakePtbrNoticiaSemNada' => array(
+			'CakePorNoticiaSemNada' => array(
 				'id' => 1,
 				'nome' => 'Teste',
 				'data' => '20/03/2009',
@@ -201,7 +201,7 @@ class CakePtbrAjusteData extends CakeTestCase {
 				'publicado' => '01/01/2010'
 			)
 		);
-		$this->_testModel('CakePtbrNoticiaSemNada', $esperado);
+		$this->_testModel('CakePorNoticiaSemNada', $esperado);
 	}
 
 /**
@@ -212,7 +212,7 @@ class CakePtbrAjusteData extends CakeTestCase {
  */
 	public function testString() {
 		$esperado = array(
-			'CakePtbrNoticiaString' => array(
+			'CakePorNoticiaString' => array(
 				'id' => 1,
 				'nome' => 'Teste',
 				'data' => '2009-03-20',
@@ -220,7 +220,7 @@ class CakePtbrAjusteData extends CakeTestCase {
 				'publicado' => '01/01/2010'
 			)
 		);
-		$this->_testModel('CakePtbrNoticiaString', $esperado);
+		$this->_testModel('CakePorNoticiaString', $esperado);
 	}
 
 /**
@@ -231,7 +231,7 @@ class CakePtbrAjusteData extends CakeTestCase {
  */
 	public function testArrayVazio() {
 		$esperado = array(
-			'CakePtbrNoticiaArrayVazio' => array(
+			'CakePorNoticiaArrayVazio' => array(
 				'id' => 1,
 				'nome' => 'Teste',
 				'data' => '20/03/2009',
@@ -239,7 +239,7 @@ class CakePtbrAjusteData extends CakeTestCase {
 				'publicado' => '01/01/2010'
 			)
 		);
-		$this->_testModel('CakePtbrNoticiaArrayVazio', $esperado);
+		$this->_testModel('CakePorNoticiaArrayVazio', $esperado);
 	}
 
 /**
@@ -250,7 +250,7 @@ class CakePtbrAjusteData extends CakeTestCase {
  */
 	public function testArrayComCampo() {
 		$esperado = array(
-			'CakePtbrNoticiaArrayComCampo' => array(
+			'CakePorNoticiaArrayComCampo' => array(
 				'id' => 1,
 				'nome' => 'Teste',
 				'data' => '2009-03-20',
@@ -258,7 +258,7 @@ class CakePtbrAjusteData extends CakeTestCase {
 				'publicado' => '01/01/2010'
 			)
 		);
-		$this->_testModel('CakePtbrNoticiaArrayComCampo', $esperado);
+		$this->_testModel('CakePorNoticiaArrayComCampo', $esperado);
 	}
 
 /**
@@ -269,7 +269,7 @@ class CakePtbrAjusteData extends CakeTestCase {
  */
 	public function testArrayComCampos() {
 		$esperado = array(
-			'CakePtbrNoticiaArrayComCampos' => array(
+			'CakePorNoticiaArrayComCampos' => array(
 				'id' => 1,
 				'nome' => 'Teste',
 				'data' => '2009-03-20',
@@ -277,7 +277,7 @@ class CakePtbrAjusteData extends CakeTestCase {
 				'publicado' => '2010-01-01'
 			)
 		);
-		$this->_testModel('CakePtbrNoticiaArrayComCampos', $esperado);
+		$this->_testModel('CakePorNoticiaArrayComCampos', $esperado);
 	}
 
 /**
