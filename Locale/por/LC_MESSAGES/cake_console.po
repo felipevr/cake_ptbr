@@ -1,19 +1,148 @@
 # translation of cake.po to
 # Portuguese translation of CakePHP Application
 # Copyright 2014 Felipe V. Rigo <cakephp@felipevr.eti.br>
+# Obs.: nao foi usado acentuacao para aumentar a compatibilidade
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-10-22 10:52+0200\n"
-"PO-Revision-Date: 2014-06-02 17:32-0300\n"
-"Last-Translator: \n"
-"Language-Team: Felipe V. Rigo\n"
+"Project-Id-Version: CakePHP 2.5.1\n"
+"POT-Creation-Date: 2014-04-22 10:52+0200\n"
+"PO-Revision-Date: 2014-06-08 15:25-0400\n"
+"Last-Translator: Felipe V. Rigo <dev@felipevr.eti.br>\n"
+"Language-Team: Felipe V. Rigo - PHPMS\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: Portuguese\n"
+"Language: pt\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.5\n"
+
+msgid "<info>Welcome to CakePHP %s Console</info>"
+msgstr "<info>Bem-vindo ao console do CakePHP %s</info>"
+
+#: Console/Command/BakeShell.php:94
+msgid "Interactive Bake Shell"
+msgstr "Shell do Bake Interativo"
+
+#: Console/Command/BakeShell.php:96
+msgid "[D]atabase Configuration"
+msgstr "D - Configurar Banco de [D]ados"
+
+#: Console/Command/BakeShell.php:97
+msgid "[M]odel"
+msgstr "M - [M]odelo"
+
+#: Console/Command/BakeShell.php:98
+msgid "[V]iew"
+msgstr "V - [V]isao"
+
+#: Console/Command/BakeShell.php:99
+msgid "[C]ontroller"
+msgstr "C - [C]ontrolador"
+
+#: Console/Command/BakeShell.php:100
+msgid "[P]roject"
+msgstr "P - [P]rojeto"
+
+#: Console/Command/BakeShell.php:101
+msgid "[F]ixture"
+msgstr "F - [F]ixture"
+
+#: Console/Command/BakeShell.php:102
+msgid "[T]est case"
+msgstr "T - Caso de [T]este"
+
+#: Console/Command/BakeShell.php:103 Console/Command/I18nShell.php:73
+msgid "[Q]uit"
+msgstr "Q - Sair"
+
+#: Console/Command/BakeShell.php:105
+msgid "What would you like to Bake?"
+msgstr "O que voce gostaria de Assar?"
+
+#: Console/Command/BakeShell.php:131
+#, fuzzy
+msgid ""
+"You have made an invalid selection. Please choose a type of class to Bake by "
+"entering D, M, V, F, T, or C."
+msgstr ""
+"Voce fez uma selecao invalida. Por favor escolha uma classe para Assar "
+"digitando D, M, V, F, T, ou C."
+
+#: Console/Command/BakeShell.php:199
+msgid "<success>Bake All complete</success>"
+msgstr "<success>Assar Tudo terminado</success>"
+
+#: Console/Command/BakeShell.php:202
+msgid "Bake All could not continue without a valid model"
+msgstr "Assar Tudo nao pode continuar sem um modelo valido"
+
+#: Console/Command/BakeShell.php:214
+msgid ""
+"The Bake script generates controllers, views and models for your "
+"application. If run with no command line arguments, Bake guides the user "
+"through the class creation process. You can customize the generation process "
+"by telling Bake where different parts of your application are using command "
+"line arguments."
+msgstr ""
+
+#: Console/Command/BakeShell.php:219
+#, fuzzy
+msgid "Bake a complete MVC. optional <name> of a Model"
+msgstr "Assar um MVC completo. Opcional <name> do Modelo."
+
+#: Console/Command/BakeShell.php:221
+msgid ""
+"Bake a new app folder in the path supplied or in current directory if no "
+"path is specified"
+msgstr ""
+"Assar uma nova pasta app no caminho fornecido ou no caminho atual se nenhum "
+"caminho for especificado"
+
+#: Console/Command/BakeShell.php:224
+msgid ""
+"Bake a new plugin folder in the path supplied or in current directory if no "
+"path is specified."
+msgstr ""
+"Assar uma nova pasta de plugin no caminho fornecido ou no diretorio atual se "
+"nenhum caminho for especificado."
+
+#: Console/Command/BakeShell.php:227
+msgid "Bake a database.php file in config directory."
+msgstr "Assar o arquivo database.php no diretorio de configuracao."
+
+#: Console/Command/BakeShell.php:230
+msgid "Bake a model."
+msgstr "Assar um modelo."
+
+#: Console/Command/BakeShell.php:233
+msgid "Bake views for controllers."
+msgstr "Assar visoes para os controladores."
+
+#: Console/Command/BakeShell.php:236
+msgid "Bake a controller."
+msgstr "Assar um controlador."
+
+#: Console/Command/BakeShell.php:239
+msgid "Bake a fixture."
+msgstr "Assar uma fixture."
+
+#: Console/Command/BakeShell.php:242
+msgid "Bake a unit test."
+msgstr "Assar um teste unitario."
+
+#: Console/Command/BakeShell.php:245
+msgid "Database connection to use in conjunction with `bake all`."
+msgstr "Conexao com o banco de dados para usar com conjunto com `bake all`."
+
+#: Console/Command/BakeShell.php:250
+#: Console/Command/Task/ControllerTask.php:485
+#: Console/Command/Task/FixtureTask.php:92
+#: Console/Command/Task/ModelTask.php:997
+#: Console/Command/Task/ProjectTask.php:440
+#: Console/Command/Task/TestTask.php:568 Console/Command/Task/ViewTask.php:439
+msgid "Theme to use when baking code."
+msgstr "Tema para usar quando assar codigo."
 
 #: Controller/Scaffold.php:128
 msgid "Scaffold :: "
@@ -66,22 +195,6 @@ msgstr "Este campo não pode ser deixado em branco"
 #: Network/CakeResponse.php:1217
 msgid "The requested file was not found"
 msgstr "O arquivo solicitado não foi encontrado"
-
-#: Utility/CakeNumber.php:94
-msgid "%d KB"
-msgstr ""
-
-#: Utility/CakeNumber.php:96
-msgid "%.2f MB"
-msgstr ""
-
-#: Utility/CakeNumber.php:98
-msgid "%.2f GB"
-msgstr ""
-
-#: Utility/CakeNumber.php:100
-msgid "%.2f TB"
-msgstr ""
 
 #: Utility/CakeNumber.php:92
 msgid "%d Byte"
@@ -149,41 +262,13 @@ msgstr "%s atrás"
 msgid "days"
 msgstr "dias"
 
-#: Utility/CakeTime.php:148
-msgid "abday"
-msgstr ""
-
 #: Utility/CakeTime.php:154
 msgid "day"
-msgstr ""
-
-#: Utility/CakeTime.php:160
-msgid "d_t_fmt"
-msgstr ""
-
-#: Utility/CakeTime.php:182
-msgid "abmon"
-msgstr ""
+msgstr "dia"
 
 #: Utility/CakeTime.php:188
 msgid "mon"
-msgstr ""
-
-#: Utility/CakeTime.php:199
-msgid "am_pm"
-msgstr ""
-
-#: Utility/CakeTime.php:206
-msgid "t_fmt_ampm"
-msgstr ""
-
-#: Utility/CakeTime.php:220
-msgid "d_fmt"
-msgstr ""
-
-#: Utility/CakeTime.php:226
-msgid "t_fmt"
-msgstr ""
+msgstr "mes"
 
 #: Utility/CakeTime.php:825
 msgid "%d year"
