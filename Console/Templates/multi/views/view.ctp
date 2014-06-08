@@ -15,7 +15,7 @@
  * @since         CakePHP(tm) v 1.2.0.5234
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
-require_once dirname(dirname(__FILE__)) . DS . 'Inflexao.php';
+require_once dirname(dirname(__FILE__)) . DS . '..' . DS .  'Inflexao.php';
 ?>
 <div class="<?php echo $pluralVar;?> view">
 <h2><?php echo "<?php  echo __('" . Inflexao::acentos($singularHumanName) . "');?>";?></h2>
@@ -129,11 +129,11 @@ echo "\t<?php
 echo "\t<?php endforeach; ?>\n";
 ?>
 	</table>
-<?php echo "<?php endif; ?>\n\n";?>
+<?php echo "<?php endif; ?>\n\n"; ?>
 	<div class="actions">
 		<ul>
 			<li><?php echo "<?php echo \$this->Html->link(__('Novo " . Inflexao::acentos(Inflector::humanize(Inflector::underscore($alias))) . "'), array('controller' => '{$details['controller']}', 'action' => 'add'));?>";?> </li>
 		</ul>
 	</div>
 </div>
-<?php endforeach;?>
+<?php endforeach; ?>

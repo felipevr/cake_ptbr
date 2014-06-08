@@ -22,7 +22,7 @@ if ($action === 'add') {
 } else {
 	$actionTitulo = Inflector::humanize($action);
 }
-require_once dirname(dirname(__FILE__)) . DS . 'Inflexao.php';
+require_once dirname(dirname(__FILE__)) . DS . '..' . DS .  'Inflexao.php';
 ?>
 <div class="<?php echo $pluralVar;?> form">
 <?php echo "<?php echo \$this->Form->create('{$modelClass}');?>\n";?>

@@ -110,4 +110,3 @@ $output .= "\t\tVocê também pode adicionar alguns estilos de CSS para suas pá
 $output .= "\t\tAPP . 'View' . DS . 'Pages' . DS . 'home.ctp.<br />',  APP . 'View' . DS . 'Layouts' . DS . 'default.ctp.<br />', APP . 'webroot' . DS . 'css');\n";
 $output .= "?>\n";
 $output .= "</p>\n";
-?>

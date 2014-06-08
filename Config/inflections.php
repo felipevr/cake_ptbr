@@ -47,6 +47,7 @@ $_pluralIrregular = array(
 	'projetil' => 'projeteis',
 	'reptil' => 'repteis',
 	'sacristao' => 'sacristaes',
+        'serie' => 'series',
 	'sotao' => 'sotaos',
 	'tabeliao' => 'tabeliaes'
 );

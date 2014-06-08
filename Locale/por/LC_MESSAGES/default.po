@@ -1,6 +1,7 @@
-# translation of core.po to
+# translation of default.po to
 # Portuguese translation of CakePHP Application
 # Copyright 2008 Gabriel Gilini <gabriel@souagil.com.br>
+# Copyright 2014 Felipe V. Rigo <cakephp@felipevr.eti.br>
 # Generated from files:
 #  Revision: 7296 /app/webroot/test.php
 #  Revision: 7296 /cake/console/libs/templates/skel/webroot/test.php
@@ -1421,8 +1422,8 @@ msgstr "O endereço requisitado %s não foi encontrado neste servidor."
 msgid "An Internal Error Has Occurred."
 msgstr "Ocorreu um Erro Interno."
 
-#~ msgid "Scaffold :: "
-#~ msgstr "Scaffold :: "
+msgid "Scaffold :: "
+msgstr "Scaffold :: "
 
 msgid "Invalid %s"
 msgstr "%s inválido"
@@ -1439,6 +1440,31 @@ msgstr "atualizado"
 msgid "saved"
 msgstr "salvo"
 
+#felipevr
+msgid "List"
+msgstr "Listar"
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "New"
+msgstr "Adicionar"
+
+msgid "The %s has been saved."
+msgstr "O %s foi salvo."
+
+msgid "The %s could not be saved. Please, try again."
+msgstr "O %s não pode ser salvo. Por favor, tente novamente."
+
+msgid "The %s has been deleted."
+msgstr "O %s foi apagado."
+
+msgid "The %s could not be deleted. Please, try again."
+msgstr "O %s não pode ser apagado. Por favor, tente novamente."
+
 msgid "The %1$s has been %2$s"
 msgstr "O %1$s foi %2$s"
 
@@ -1446,2033 +1472,2024 @@ msgid "Please correct errors below."
 msgstr "Por favor corrija os erros abaixo."
 
 #, fuzzy
-#~ msgid "The %1$s with id: %2$s has been deleted."
-#~ msgstr "O %1$s com id: %2$d foi excluído."
+msgid "The %1$s with id: %2$s has been deleted."
+msgstr "O %1$s com id: %2$d foi excluído."
 
 #, fuzzy
-#~ msgid "There was an error deleting the %1$s with id: %2$s"
-#~ msgstr "Houve um erro ao deletar o %1$s com id: %2$d"
+msgid "There was an error deleting the %1$s with id: %2$s"
+msgstr "Houve um erro ao deletar o %1$s com id: %2$d"
 
-#~ msgid "You are not authorized to access that location."
-#~ msgstr "Você não tem autorização para acessar aquele local."
+msgid "You are not authorized to access that location."
+msgstr "Você não tem autorização para acessar aquele local."
 
-#~ msgid "Not Found"
-#~ msgstr "Não encontrado"
+msgid "Not Found"
+msgstr "Não encontrado"
 
-#~ msgid "This field cannot be left blank"
-#~ msgstr "Este campo não pode ser deixado em branco"
+msgid "This field cannot be left blank"
+msgstr "Este campo não pode ser deixado em branco"
 
 #, fuzzy
-#~ msgid "The requested file was not found"
-#~ msgstr "O arquivo de component não foi encontrado."
+msgid "The requested file was not found"
+msgstr "O arquivo de component não foi encontrado."
 
-#~ msgid "%s KB"
-#~ msgstr "%s KB"
+msgid "%s KB"
+msgstr "%s KB"
 
-#~ msgid "%s MB"
-#~ msgstr "%s MB"
+msgid "%s MB"
+msgstr "%s MB"
 
-#~ msgid "%s GB"
-#~ msgstr "%s GB"
+msgid "%s GB"
+msgstr "%s GB"
 
-#~ msgid "%s TB"
-#~ msgstr "%s TB"
+msgid "%s TB"
+msgstr "%s TB"
 
-#~ msgid "%d Byte"
-#~ msgid_plural "%d Bytes"
-#~ msgstr[0] "%d Byte"
-#~ msgstr[1] "%d Bytes"
+msgid "%d Byte"
+msgid_plural "%d Bytes"
+msgstr[0] "%d Byte"
+msgstr[1] "%d Bytes"
 
-#~ msgid "Today, %s"
-#~ msgstr "Hoje, %s"
+msgid "Today, %s"
+msgstr "Hoje, %s"
 
-#~ msgid "Yesterday, %s"
-#~ msgstr "Ontem, %s"
+msgid "Yesterday, %s"
+msgstr "Ontem, %s"
 
-#~ msgid "Tomorrow, %s"
-#~ msgstr "Amanhã, %s"
+msgid "Tomorrow, %s"
+msgstr "Amanhã, %s"
 
-#~ msgid "Sunday"
-#~ msgstr "Domingo"
+msgid "Sunday"
+msgstr "Domingo"
 
-#~ msgid "Monday"
-#~ msgstr "Segunda-feira"
+msgid "Monday"
+msgstr "Segunda-feira"
 
-#~ msgid "Tuesday"
-#~ msgstr "Terça-feira"
+msgid "Tuesday"
+msgstr "Terça-feira"
 
-#~ msgid "Wednesday"
-#~ msgstr "Quarta-feira"
+msgid "Wednesday"
+msgstr "Quarta-feira"
 
-#~ msgid "Thursday"
-#~ msgstr "Quinta-feira"
+msgid "Thursday"
+msgstr "Quinta-feira"
 
-#~ msgid "Friday"
-#~ msgstr "Sexta-feira"
+msgid "Friday"
+msgstr "Sexta-feira"
 
-#~ msgid "Saturday"
-#~ msgstr "Sábado"
+msgid "Saturday"
+msgstr "Sábado"
 
 #, fuzzy
-#~ msgid "On %s %s"
-#~ msgstr "em %s"
+msgid "On %s %s"
+msgstr "em %s"
 
-#~ msgid "%s ago"
-#~ msgstr "%s atrás"
+msgid "%s ago"
+msgstr "%s atrás"
 
-#~ msgid "on %s"
-#~ msgstr "em %s"
+msgid "on %s"
+msgstr "em %s"
 
-#~ msgid "just now"
-#~ msgstr "agora"
+msgid "just now"
+msgstr "agora"
 
 #, fuzzy
-#~ msgid "in about a week"
-#~ msgstr "Mais sobre Cake"
+msgid "in about a week"
+msgstr "Mais sobre Cake"
 
 #, fuzzy
-#~ msgid "in about a year"
-#~ msgstr "Mais sobre Cake"
+msgid "in about a year"
+msgstr "Mais sobre Cake"
 
-#~ msgid "days"
-#~ msgstr "dias"
+msgid "days"
+msgstr "dias"
 
 #, fuzzy
-#~ msgid "%d year"
-#~ msgid_plural "%d years"
-#~ msgstr[0] "ano"
-#~ msgstr[1] "anos"
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "ano"
+msgstr[1] "anos"
 
 #, fuzzy
-#~ msgid "%d month"
-#~ msgid_plural "%d months"
-#~ msgstr[0] "mês"
-#~ msgstr[1] "meses"
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "mês"
+msgstr[1] "meses"
 
 #, fuzzy
-#~ msgid "%d week"
-#~ msgid_plural "%d weeks"
-#~ msgstr[0] "semana"
-#~ msgstr[1] "semanas"
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "semana"
+msgstr[1] "semanas"
 
-#~ msgid "%d day"
-#~ msgid_plural "%d days"
-#~ msgstr[0] "%d dia, %s dias"
-#~ msgstr[1] ""
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dia, %s dias"
+msgstr[1] ""
 
 #, fuzzy
-#~ msgid "%d hour"
-#~ msgid_plural "%d hours"
-#~ msgstr[0] "hora"
-#~ msgstr[1] "horas"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "hora"
+msgstr[1] "horas"
 
 #, fuzzy
-#~ msgid "%d minute"
-#~ msgid_plural "%d minutes"
-#~ msgstr[0] "minuto"
-#~ msgstr[1] "minutos"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "minuto"
+msgstr[1] "minutos"
 
 #, fuzzy
-#~ msgid "%d second"
-#~ msgid_plural "%d seconds"
-#~ msgstr[0] "segundo"
-#~ msgstr[1] "segundos"
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "segundo"
+msgstr[1] "segundos"
 
-#~ msgid "Error in field %s"
-#~ msgstr "Erro no campo %s"
+msgid "Error in field %s"
+msgstr "Erro no campo %s"
 
-#~ msgid "New %s"
-#~ msgstr "Adicionar %s"
+msgid "New %s"
+msgstr "Adicionar %s"
 
-#~ msgid "Edit %s"
-#~ msgstr "Editar %s"
+msgid "Edit %s"
+msgstr "Editar %s"
 
-#~ msgid "empty"
-#~ msgstr "vazio"
+msgid "empty"
+msgstr "vazio"
 
-#~ msgid "Submit"
-#~ msgstr "Enviar"
+msgid "Submit"
+msgstr "Enviar"
 
-#~ msgid "January"
-#~ msgstr "Janeiro"
+msgid "January"
+msgstr "Janeiro"
 
-#~ msgid "February"
-#~ msgstr "Fevereiro"
+msgid "February"
+msgstr "Fevereiro"
 
-#~ msgid "March"
-#~ msgstr "Março"
+msgid "March"
+msgstr "Março"
 
-#~ msgid "April"
-#~ msgstr "Abril"
+msgid "April"
+msgstr "Abril"
 
-#~ msgid "May"
-#~ msgstr "Maio"
+msgid "May"
+msgstr "Maio"
 
-#~ msgid "June"
-#~ msgstr "Junho"
+msgid "June"
+msgstr "Junho"
 
-#~ msgid "July"
-#~ msgstr "Julho"
+msgid "July"
+msgstr "Julho"
 
-#~ msgid "August"
-#~ msgstr "Agosto"
+msgid "August"
+msgstr "Agosto"
 
-#~ msgid "September"
-#~ msgstr "Setembro"
+msgid "September"
+msgstr "Setembro"
 
-#~ msgid "October"
-#~ msgstr "Outubro"
+msgid "October"
+msgstr "Outubro"
 
-#~ msgid "November"
-#~ msgstr "Novembro"
+msgid "November"
+msgstr "Novembro"
 
-#~ msgid "December"
-#~ msgstr "Dezembro"
+msgid "December"
+msgstr "Dezembro"
 
-#~ msgid "Home"
-#~ msgstr "Home"
+msgid "Home"
+msgstr "Home"
 
-#~ msgid " of "
-#~ msgstr " de "
+msgid " of "
+msgstr " de "
 
-#~ msgid "Actions"
-#~ msgstr "Ações"
+msgid "Actions"
+msgstr "Ações"
 
-#~ msgid "Delete"
-#~ msgstr "Excluir"
+msgid "Delete"
+msgstr "Excluir"
 
-#, fuzzy
-#~ msgid "Are you sure you want to delete # %s?"
-#~ msgstr "Você tem certeza que quer excluir"
+msgid "Are you sure you want to delete # %s?"
+msgstr "Você tem certeza que quer excluir # %s?"
 
-#~ msgid "List"
-#~ msgstr "Listar"
+msgid "List"
+msgstr "Listar"
 
-#~ msgid "List %s"
-#~ msgstr "Listar %s"
+msgid "List %s"
+msgstr "Listar %s"
 
-#~ msgid "View"
-#~ msgstr "Visualizar"
+msgid "View"
+msgstr "Visualizar"
 
-#~ msgid "Edit"
-#~ msgstr "Editar"
+msgid "Edit"
+msgstr "Editar"
 
-#~ msgid "previous"
-#~ msgstr "anterior"
+msgid "previous"
+msgstr "anterior"
 
-#~ msgid "next"
-#~ msgstr "próximo"
+msgid "next"
+msgstr "próximo"
 
-#~ msgid "View %s"
-#~ msgstr "Visualizar %s"
+msgid "View %s"
+msgstr "Visualizar %s"
 
-#~ msgid "Delete %s"
-#~ msgstr "Excluir %s"
+msgid "Delete %s"
+msgstr "Excluir %s"
 
-#~ msgid "Related %s"
-#~ msgstr "Relacionado %s"
+msgid "Related %s"
+msgstr "%s Relacionados(as)"
 
-#, fuzzy
-#~ msgid "Enable verbose output."
-#~ msgstr "Você quer saída verbose?"
+msgid "Enable verbose output."
+msgstr "Habilitar saída detalhada?"
 
 #, fuzzy
-#~ msgid "App : %s"
-#~ msgstr "Tipo: %s"
+msgid "App : %s"
+msgstr "Tipo: %s"
 
-#~ msgid "Path: %s"
-#~ msgstr "Caminho: %s"
+msgid "Path: %s"
+msgstr "Caminho: %s"
 
-#, fuzzy
-#~ msgid "<warning>File `%s` exists</warning>"
-#~ msgstr "Arquivo existe, sobrescrever?"
+msgid "<warning>File `%s` exists</warning>"
+msgstr "<warning>Arquivo `%s` existe</warning>"
 
-#, fuzzy
-#~ msgid "Do you want to overwrite?"
-#~ msgstr "Você quer usar essa tabela?"
+msgid "Do you want to overwrite?"
+msgstr "Você deseja sobreescrever?"
 
-#, fuzzy
-#~ msgid "Skip `%s`"
-#~ msgstr "Pular"
+msgid "Skip `%s`"
+msgstr "Pular `%s`"
 
-#~ msgid "Creating file %s"
-#~ msgstr "Criando arquivo %s"
+msgid "Creating file %s"
+msgstr "Criando arquivo %s"
 
-#, fuzzy
-#~ msgid "<error>Could not write to `%s`</error>."
-#~ msgstr "Erro! Não pôde escrever em"
+msgid "<error>Could not write to `%s`</error>."
+msgstr "<error>Erro! Não pôde escrever em `%s`</error>."
 
 #, fuzzy
-#~ msgid ""
-#~ "Error: Your current CakePHP configuration is set to an ACL implementation "
-#~ "other than DB."
-#~ msgstr "Erro: Sua configuração atual do Cake está setada para"
+msgid ""
+"Error: Your current CakePHP configuration is set to an ACL implementation "
+"other than DB."
+msgstr "Erro: Sua configuração atual do Cake está setada para uma implementação ACL fora do banco de dados."
 
 #, fuzzy
-#~ msgid ""
-#~ "Please change your core config to reflect your decision to use DbAcl "
-#~ "before attempting to use this script"
-#~ msgstr "sua configuração do core para refletir sua decisão de usar"
+msgid ""
+"Please change your core config to reflect your decision to use DbAcl "
+"before attempting to use this script"
+msgstr "Por favor, mude sua configuração do núcleo para refletir sua decisão de usar DbAcl"
 
-#~ msgid "Current ACL Classname: %s"
-#~ msgstr "Nome de classe ACL atual: %s"
+msgid "Current ACL Classname: %s"
+msgstr "Nome de classe ACL atual: %s"
 
-#~ msgid ""
-#~ "Your database configuration was not found. Take a moment to create one."
-#~ msgstr ""
-#~ "Sua configuração de banco de dados não foi encontrada. Tire alguns "
-#~ "minutos para criar uma."
+msgid ""
+"Your database configuration was not found. Take a moment to create one."
+msgstr ""
+"Sua configuração de banco de dados não foi encontrada. Tire alguns "
+"minutos para criar uma."
 
-#~ msgid "/ can not be used as an alias!"
-#~ msgstr "/ não pode ser usado como um alias!"
+msgid "/ can not be used as an alias!"
+msgstr "/ não pode ser usado como um alias!"
 
 #, fuzzy
-#~ msgid "\t/ is the root, please supply a sub alias"
-#~ msgstr "\\t/ é a raiz, por favor forneça um sub alias"
+msgid "\t/ is the root, please supply a sub alias"
+msgstr "\\t/ é a raiz, por favor forneça um sub alias"
 
-#, fuzzy
-#~ msgid "<success>New %s</success> '%s' created."
-#~ msgstr "Novo %s '%s' criado.\n"
+msgid "<success>New %s</success> '%s' created."
+msgstr "<success>Novo(a) %s</success> '%s' criado.\n"
 
-#~ msgid "There was a problem creating a new %s '%s'."
-#~ msgstr "Houve um problema ao criar um novo %s '%s'."
+msgid "There was a problem creating a new %s '%s'."
+msgstr "Houve um problema ao criar um novo(a) %s '%s'."
 
-#, fuzzy
-#~ msgid "Node Not Deleted. "
-#~ msgstr "Nó não excluído"
+msgid "Node Not Deleted. "
+msgstr "Nó não excluído."
 
 #, fuzzy
-#~ msgid "There was an error deleting the %s."
-#~ msgstr "Houve um erro ao deletar o %1$s com id: %2$d"
+msgid "There was an error deleting the %s."
+msgstr "Houve um erro ao deletar o %1$s com id: %2$d"
 
-#, fuzzy
-#~ msgid "There was an error deleting the %s. Node does not exist."
-#~ msgstr "Houve um erro ao deletar o %s. Cheque se o nó existe"
+msgid "There was an error deleting the %s. Node does not exist."
+msgstr "Houve um erro ao deletar o %s. O nó não existe."
 
-#~ msgid ""
-#~ "Error in setting new parent. Please make sure the parent node exists, and "
-#~ "is not a descendant of the node specified."
-#~ msgstr ""
-#~ "Erro ao definir novo pai. Por favor certifique-se que o nó pai existe, e "
-#~ "não é um descendente do nó especificado."
+msgid ""
+"Error in setting new parent. Please make sure the parent node exists, and "
+"is not a descendant of the node specified."
+msgstr ""
+"Erro ao definir novo pai. Por favor certifique-se que o nó pai existe, e "
+"não é um descendente do nó especificado."
 
-#~ msgid "Node parent set to %s"
-#~ msgstr "Nó pai setado para %s"
+msgid "Node parent set to %s"
+msgstr "Nó pai setado para %s"
 
-#~ msgid "Supplied Node '%s' not found"
-#~ msgstr "Nó '%s' informado não encontrado"
+msgid "Supplied Node '%s' not found"
+msgstr "Nó '%s' informado não encontrado"
 
-#~ msgid "No tree returned."
-#~ msgstr "Nenhuma árvore retornada."
+msgid "No tree returned."
+msgstr "Nenhuma árvore retornada."
 
-#~ msgid "Path:"
-#~ msgstr "Caminho:"
+msgid "Path:"
+msgstr "Caminho:"
 
 #, fuzzy
-#~ msgid "%s is <error>not allowed</error>."
-#~ msgstr "%s não é permitido."
+msgid "%s is <error>not allowed</error>."
+msgstr "%s não é permitido."
 
 #, fuzzy
-#~ msgid "Permission <success>granted</success>."
-#~ msgstr "Permissão concedida."
+msgid "Permission <success>granted</success>."
+msgstr "Permissão concedida."
 
 #, fuzzy
-#~ msgid "Permission was <error>not granted</error>."
-#~ msgstr "Permissão não foi concedida."
+msgid "Permission was <error>not granted</error>."
+msgstr "Permissão não foi concedida."
 
-#~ msgid "Permission denied."
-#~ msgstr "Permissão negada."
+msgid "Permission denied."
+msgstr "Permissão negada."
 
-#~ msgid "Permission was not denied."
-#~ msgstr "Permissão não foi negada."
+msgid "Permission was not denied."
+msgstr "Permissão não foi negada."
 
-#~ msgid "Permission inherited."
-#~ msgstr "Permissão herdada."
+msgid "Permission inherited."
+msgstr "Permissão herdada."
 
-#~ msgid "Permission was not inherited."
-#~ msgstr "Permissão não foi herdada."
+msgid "Permission was not inherited."
+msgstr "Permissão não foi herdada."
 
 #, fuzzy
-#~ msgid "Create a new ACL node"
-#~ msgstr ""
-#~ "Cria um novo objeto ACL <nó> sob o pai especificado por <pai>, um id/"
-#~ "alias."
+msgid "Create a new ACL node"
+msgstr ""
+"Cria um novo objeto ACL <nó> sob o pai especificado por <pai>, um id/"
+"alias."
 
 #, fuzzy
-#~ msgid "Creates a new ACL object <node> under the parent"
-#~ msgstr ""
-#~ "Cria um novo objeto ACL <nó> sob o pai especificado por <pai>, um id/"
-#~ "alias."
+msgid "Creates a new ACL object <node> under the parent"
+msgstr ""
+"Cria um novo objeto ACL <nó> sob o pai especificado por <pai>, um id/"
+"alias."
 
 #, fuzzy
-#~ msgid "Deletes the ACL object with the given <node> reference"
-#~ msgstr ""
-#~ "Exclui o objeto ACL com a referência <nó> dada (veja 'create' para "
-#~ "informação sobre referências de nós)."
+msgid "Deletes the ACL object with the given <node> reference"
+msgstr ""
+"Exclui o objeto ACL com a referência <nó> dada (veja 'create' para "
+"informação sobre referências de nós)."
 
 #, fuzzy
-#~ msgid "Moves the ACL node under a new parent."
-#~ msgstr ""
-#~ "Cria um novo objeto ACL <nó> sob o pai especificado por <pai>, um id/"
-#~ "alias."
+msgid "Moves the ACL node under a new parent."
+msgstr ""
+"Cria um novo objeto ACL <nó> sob o pai especificado por <pai>, um id/"
+"alias."
 
 #, fuzzy
-#~ msgid "Moves the ACL object specified by <node> beneath <parent>"
-#~ msgstr ""
-#~ "Move o objeto ACL especificado por <nó> abaixo do objeto ACL pai "
-#~ "especificado por <pai>."
+msgid "Moves the ACL object specified by <node> beneath <parent>"
+msgstr ""
+"Move o objeto ACL especificado por <nó> abaixo do objeto ACL pai "
+"especificado por <pai>."
 
 #, fuzzy
-#~ msgid "Returns the path to the ACL object specified by <node>."
-#~ msgstr ""
-#~ "Retorna o caminho para o objeto ACL especificado por <nó>. Este comando"
+msgid "Returns the path to the ACL object specified by <node>."
+msgstr ""
+"Retorna o caminho para o objeto ACL especificado por <nó>. Este comando"
 
 #, fuzzy
-#~ msgid ""
-#~ "This command is useful in determining the inheritance of permissions for "
-#~ "a certain object in the tree."
-#~ msgstr "é útil para determinar a hernaça de permissões para um certo"
+msgid ""
+"This command is useful in determining the inheritance of permissions for "
+"a certain object in the tree."
+msgstr "é útil para determinar a hernaça de permissões para um certo"
 
-#~ msgid "Use this command to check ACL permissions."
-#~ msgstr "Use este comando para checar permissões ACL."
+msgid "Use this command to check ACL permissions."
+msgstr "Use este comando para checar permissões ACL."
 
 #, fuzzy
-#~ msgid ""
-#~ "Use this command to force a child ARO object to inherit its permissions "
-#~ "settings from its parent."
-#~ msgstr "Use este comando para forçar um objeto ARO filho a herdar suas"
+msgid ""
+"Use this command to force a child ARO object to inherit its permissions "
+"settings from its parent."
+msgstr "Use este comando para forçar um objeto ARO filho a herdar suas"
 
 #, fuzzy
-#~ msgid "ARO to have permissions inherit."
-#~ msgstr "Permissão herdada."
+msgid "ARO to have permissions inherit."
+msgstr "Permissão herdada."
 
 #, fuzzy
-#~ msgid "ACO to inherit permissions on."
-#~ msgstr "Impossível setar permissões em %s"
+msgid "ACO to inherit permissions on."
+msgstr "Impossível setar permissões em %s"
 
 #, fuzzy
-#~ msgid "The view command will return the ARO or ACO tree."
-#~ msgstr "O comando view retornará a árvore ARO ou ACO. O parâmetro"
+msgid "The view command will return the ARO or ACO tree."
+msgstr "O comando view retornará a árvore ARO ou ACO. O parâmetro"
 
-#~ msgid "The optional node parameter allows you to return"
-#~ msgstr "O parâmetro opcional do nó permite você retornar"
+msgid "The optional node parameter allows you to return"
+msgstr "O parâmetro opcional do nó permite você retornar"
 
 #, fuzzy
-#~ msgid "only a portion of the requested tree."
-#~ msgstr ""
-#~ "id/alias opcional permite que você retorne apenas uma porção da árvore "
-#~ "requisitada."
+msgid "only a portion of the requested tree."
+msgstr ""
+"id/alias opcional permite que você retorne apenas uma porção da árvore "
+"requisitada."
 
 #, fuzzy
-#~ msgid "The optional node to view the subtree of."
-#~ msgstr "O parâmetro opcional do nó permite você retornar"
+msgid "The optional node to view the subtree of."
+msgstr "O parâmetro opcional do nó permite você retornar"
 
 #, fuzzy
-#~ msgid ""
-#~ "Initialize the DbAcl tables. Uses this command : cake schema create DbAcl"
-#~ msgstr "Usa este comando : cake schema run create DbAcl"
+msgid ""
+"Initialize the DbAcl tables. Uses this command : cake schema create DbAcl"
+msgstr "Usa este comando : cake schema run create DbAcl"
 
 #, fuzzy
-#~ msgid "Could not find node using reference \"%s\""
-#~ msgstr "Nó pai não encontrado utilizando a referência \"%s\""
+msgid "Could not find node using reference \"%s\""
+msgstr "Nó pai não encontrado utilizando a referência \"%s\""
 
-#~ msgid "%s::%s() could not be found"
-#~ msgstr "%s::%s() não pôde ser encontrado"
+msgid "%s::%s() could not be found"
+msgstr "%s::%s() não pôde ser encontrado"
 
-#~ msgid ""
-#~ "Select a number to see the more information about a specific method. q to "
-#~ "quit. l to list."
-#~ msgstr ""
-#~ "Selecione um número para ver mais informações sobre um método específico. "
-#~ "q para sair. l para listar."
+msgid ""
+"Select a number to see the more information about a specific method. q to "
+"quit. l to list."
+msgstr ""
+"Selecione um número para ver mais informações sobre um método específico. "
+"q para sair. l para listar."
 
-#~ msgid "Done"
-#~ msgstr "Feito"
+msgid "Done"
+msgstr "Feito"
 
 #, fuzzy
-#~ msgid "Command %s not found"
-#~ msgstr "Comando '%s' não encontrado"
+msgid "Command %s not found"
+msgstr "Comando '%s' não encontrado"
 
 #, fuzzy
-#~ msgid "[D]atabase Configuration"
-#~ msgstr "Usar Database Config"
+msgid "[D]atabase Configuration"
+msgstr "Usar Database Config"
 
 #, fuzzy
-#~ msgid "[C]ontroller"
-#~ msgstr "Controller não encontrado"
+msgid "[C]ontroller"
+msgstr "Controller não encontrado"
 
 #, fuzzy
-#~ msgid "[P]roject"
-#~ msgstr "Projeto Bake"
+msgid "[P]roject"
+msgstr "Projeto Bake"
 
 #, fuzzy
-#~ msgid "[T]est case"
-#~ msgstr "Test saindo do forno\n"
+msgid "[T]est case"
+msgstr "Test saindo do forno\n"
 
-#~ msgid "[Q]uit"
-#~ msgstr "[Q]uit"
+msgid "[Q]uit"
+msgstr "[Q]uit"
 
-#~ msgid "What would you like to Bake?"
-#~ msgstr "O que você gostaria de assar?"
+msgid "What would you like to Bake?"
+msgstr "O que você gostaria de assar?"
 
 #, fuzzy
-#~ msgid ""
-#~ "You have made an invalid selection. Please choose a type of class to Bake "
-#~ "by entering D, M, V, F, T, or C."
-#~ msgstr ""
-#~ "Você fez uma seleção inválida. Por favor escolha um tipo de classe para "
-#~ "pôr no forno digitando D, M, V, ou C."
+msgid ""
+"You have made an invalid selection. Please choose a type of class to Bake "
+"by entering D, M, V, F, T, or C."
+msgstr ""
+"Você fez uma seleção inválida. Por favor escolha um tipo de classe para "
+"pôr no forno digitando D, M, V, ou C."
 
 #, fuzzy
-#~ msgid "<success>Bake All complete</success>"
-#~ msgstr "Bake All completado"
+msgid "<success>Bake All complete</success>"
+msgstr "Bake All completado"
 
-#~ msgid "Bake All could not continue without a valid model"
-#~ msgstr "Bake All não pôde continuar sem um Model válido"
+msgid "Bake All could not continue without a valid model"
+msgstr "Bake All não pôde continuar sem um Model válido"
 
 #, fuzzy
-#~ msgid "Bake a model."
-#~ msgstr "Bake All completado"
+msgid "Bake a model."
+msgstr "Bake All completado"
 
 #, fuzzy
-#~ msgid "Bake views for controllers."
-#~ msgstr "Controller não encontrado"
+msgid "Bake views for controllers."
+msgstr "Controller não encontrado"
 
 #, fuzzy
-#~ msgid "Bake a controller."
-#~ msgstr "Controller não encontrado"
+msgid "Bake a controller."
+msgstr "Controller não encontrado"
 
 #, fuzzy
-#~ msgid "Does nothing (deprecated)"
-#~ msgstr "%s não criado"
+msgid "Does nothing (deprecated)"
+msgstr "%s não criado"
 
 #, fuzzy
-#~ msgid ""
-#~ "There was an error loading the routes config. Please check that the file "
-#~ "exists and contains no errors."
-#~ msgstr "Houve um erro ao deletar o %s. Cheque se o nó existe"
+msgid ""
+"There was an error loading the routes config. Please check that the file "
+"exists and contains no errors."
+msgstr "Houve um erro ao deletar o %s. Cheque se o nó existe"
 
 #, fuzzy
-#~ msgid "Invalid command"
-#~ msgstr "Objeto de schema inválido"
+msgid "Invalid command"
+msgstr "Objeto de schema inválido"
 
 #, fuzzy
-#~ msgid "No result set found"
-#~ msgstr "Nó pai setado para %s"
+msgid "No result set found"
+msgstr "Nó pai setado para %s"
 
 #, fuzzy
-#~ msgid "%s is not a valid model"
-#~ msgstr "%s não é permitido."
+msgid "%s is not a valid model"
+msgstr "%s não é permitido."
 
 #, fuzzy
-#~ msgid ""
-#~ "There was an error loading the routes config. Please check that the file "
-#~ "exists and is free of parse errors."
-#~ msgstr "Houve um erro ao deletar o %s. Cheque se o nó existe"
+msgid ""
+"There was an error loading the routes config. Please check that the file "
+"exists and is free of parse errors."
+msgstr "Houve um erro ao deletar o %s. Cheque se o nó existe"
 
 #, fuzzy
-#~ msgid "<info>I18n Shell</info>"
-#~ msgstr "I18n Shell"
+msgid "<info>I18n Shell</info>"
+msgstr "I18n Shell"
 
-#~ msgid "[E]xtract POT file from sources"
-#~ msgstr "[E]xtrair arquivos POT dos fontes"
+msgid "[E]xtract POT file from sources"
+msgstr "[E]xtrair arquivos POT dos fontes"
 
-#~ msgid "[I]nitialize i18n database table"
-#~ msgstr "[I]nicializar tabela i18n do banco de dados"
+msgid "[I]nitialize i18n database table"
+msgstr "[I]nicializar tabela i18n do banco de dados"
 
-#~ msgid "[H]elp"
-#~ msgstr "[H]elp"
+msgid "[H]elp"
+msgstr "[H]elp"
 
-#~ msgid "What would you like to do?"
-#~ msgstr "O que você gostaria de fazer?"
+msgid "What would you like to do?"
+msgstr "O que você gostaria de fazer?"
 
-#~ msgid ""
-#~ "You have made an invalid selection. Please choose a command to execute by "
-#~ "entering E, I, H, or Q."
-#~ msgstr ""
-#~ "Você fez uma seleção inválida. Por favor escolha um comando para executar "
-#~ "digitando E, I, H, ou Q."
+msgid ""
+"You have made an invalid selection. Please choose a command to execute by "
+"entering E, I, H, or Q."
+msgstr ""
+"Você fez uma seleção inválida. Por favor escolha um comando para executar "
+"digitando E, I, H, ou Q."
 
 #, fuzzy
-#~ msgid ""
-#~ "I18n Shell initializes i18n database table for your application and "
-#~ "generates .pot files(s) with translations."
-#~ msgstr "I18n Shell inicializa a tabela i18n para sua aplicação"
+msgid ""
+"I18n Shell initializes i18n database table for your application and "
+"generates .pot files(s) with translations."
+msgstr "I18n Shell inicializa a tabela i18n para sua aplicação"
 
 #, fuzzy
-#~ msgid "Initialize the i18n table."
-#~ msgstr "[I]nicializar tabela i18n do banco de dados"
+msgid "Initialize the i18n table."
+msgstr "[I]nicializar tabela i18n do banco de dados"
 
 #, fuzzy
-#~ msgid "Schema file (%s) could not be found."
-#~ msgstr "Schema não encontrado"
+msgid "Schema file (%s) could not be found."
+msgstr "Schema não encontrado"
 
-#~ msgid "Generating Schema..."
-#~ msgstr "Gerando esquema..."
+msgid "Generating Schema..."
+msgstr "Gerando esquema..."
 
-#~ msgid "Schema file: %s generated"
-#~ msgstr "Schema: %s gerado"
+msgid "Schema file: %s generated"
+msgstr "Schema: %s gerado"
 
-#~ msgid "Schema could not be loaded"
-#~ msgstr "Schema não pôde ser carregado"
+msgid "Schema could not be loaded"
+msgstr "Schema não pôde ser carregado"
 
-#~ msgid "SQL dump file created in %s"
-#~ msgstr "Arquivo de SQL dump criado em %s"
+msgid "SQL dump file created in %s"
+msgstr "Arquivo de SQL dump criado em %s"
 
-#~ msgid "SQL dump could not be created"
-#~ msgstr "SQL dump não pôde ser criado"
+msgid "SQL dump could not be created"
+msgstr "SQL dump não pôde ser criado"
 
-#~ msgid "Performing a dry run."
-#~ msgstr "Executando dry run."
+msgid "Performing a dry run."
+msgstr "Executando dry run."
 
 #, fuzzy
-#~ msgid "The chosen schema could not be loaded. Attempted to load:"
-#~ msgstr "Schema não pôde ser carregado"
+msgid "The chosen schema could not be loaded. Attempted to load:"
+msgstr "Schema não pôde ser carregado"
 
 #, fuzzy
-#~ msgid "File: %s"
-#~ msgstr "Relacionado %s"
+msgid "File: %s"
+msgstr "Relacionado %s"
 
 #, fuzzy
-#~ msgid "Name: %s"
-#~ msgstr "Nome do plugin: %s"
+msgid "Name: %s"
+msgstr "Nome do plugin: %s"
 
-#~ msgid "Schema is up to date."
-#~ msgstr "Schema está atualizado."
+msgid "Schema is up to date."
+msgstr "Schema está atualizado."
 
-#~ msgid "The following table(s) will be dropped."
-#~ msgstr "A(s) seguinte(s) tabela(s) será(ão) removida(s)."
+msgid "The following table(s) will be dropped."
+msgstr "A(s) seguinte(s) tabela(s) será(ão) removida(s)."
 
-#~ msgid "Are you sure you want to drop the table(s)?"
-#~ msgstr "Você tem certeza que quer remover a(s) tabela(s)?s"
+msgid "Are you sure you want to drop the table(s)?"
+msgstr "Você tem certeza que quer remover a(s) tabela(s)?s"
 
-#~ msgid "Dropping table(s)."
-#~ msgstr "Excluindo tabela(s)."
+msgid "Dropping table(s)."
+msgstr "Excluindo tabela(s)."
 
-#~ msgid "The following table(s) will be created."
-#~ msgstr "A(s) seguinte(s) tabela(s) será(ão) criada(s)."
+msgid "The following table(s) will be created."
+msgstr "A(s) seguinte(s) tabela(s) será(ão) criada(s)."
 
-#~ msgid "Are you sure you want to create the table(s)?"
-#~ msgstr "Você tem certeza que quer criar a(s) tabela(s)?"
+msgid "Are you sure you want to create the table(s)?"
+msgstr "Você tem certeza que quer criar a(s) tabela(s)?"
 
 #, fuzzy
-#~ msgid "Creating table(s)."
-#~ msgstr "Criando arquivo %s"
+msgid "Creating table(s)."
+msgstr "Criando arquivo %s"
 
-#~ msgid "End create."
-#~ msgstr "Fim da criação."
+msgid "End create."
+msgstr "Fim da criação."
 
 #, fuzzy
-#~ msgid "Comparing Database to Schema..."
-#~ msgstr "Atualizando banco de dados..."
+msgid "Comparing Database to Schema..."
+msgstr "Atualizando banco de dados..."
 
-#~ msgid "The following statements will run."
-#~ msgstr "As seguintes declarações serão executadas."
+msgid "The following statements will run."
+msgstr "As seguintes declarações serão executadas."
 
-#~ msgid "Are you sure you want to alter the tables?"
-#~ msgstr "Você tem certeza que deseja alterar as tabelas?"
+msgid "Are you sure you want to alter the tables?"
+msgstr "Você tem certeza que deseja alterar as tabelas?"
 
-#~ msgid "Updating Database..."
-#~ msgstr "Atualizando banco de dados..."
+msgid "Updating Database..."
+msgstr "Atualizando banco de dados..."
 
-#~ msgid "End update."
-#~ msgstr "Fim da atualização."
+msgid "End update."
+msgstr "Fim da atualização."
 
-#~ msgid "Sql could not be run"
-#~ msgstr "Sql não pôde ser executado"
+msgid "Sql could not be run"
+msgstr "Sql não pôde ser executado"
 
-#~ msgid "%s is up to date."
-#~ msgstr "%s está atualizado."
+msgid "%s is up to date."
+msgstr "%s está atualizado."
 
-#~ msgid "Dry run for %s :"
-#~ msgstr "Dry run para %s :"
+msgid "Dry run for %s :"
+msgstr "Dry run para %s :"
 
-#~ msgid "%s updated."
-#~ msgstr "%s atualizado."
+msgid "%s updated."
+msgstr "%s atualizado."
 
 #, fuzzy
-#~ msgid "Ignore default configuration file (phpunit.xml)."
-#~ msgstr "Seu arquivo de configuração do banco de dados está presente."
+msgid "Ignore default configuration file (phpunit.xml)."
+msgstr "Seu arquivo de configuração do banco de dados está presente."
 
 #, fuzzy
-#~ msgid "More verbose output."
-#~ msgstr "Você quer saída verbose?"
+msgid "More verbose output."
+msgstr "Você quer saída verbose?"
 
 #, fuzzy
-#~ msgid "CakePHP Test Shell"
-#~ msgstr "CakePHP Trac"
+msgid "CakePHP Test Shell"
+msgstr "CakePHP Trac"
 
 #, fuzzy
-#~ msgid "What test case would you like to run?"
-#~ msgstr "O que você gostaria de fazer?"
+msgid "What test case would you like to run?"
+msgstr "O que você gostaria de fazer?"
 
 #, fuzzy
-#~ msgid "Running %s"
-#~ msgstr "Executando %s %s %s"
+msgid "Running %s"
+msgstr "Executando %s %s %s"
 
 #, fuzzy
-#~ msgid "Moving %s to %s"
-#~ msgstr "Executando %s %s %s"
+msgid "Moving %s to %s"
+msgstr "Executando %s %s %s"
 
 #, fuzzy
-#~ msgid "Updating %s..."
-#~ msgstr "Atualizando banco de dados..."
+msgid "Updating %s..."
+msgstr "Atualizando banco de dados..."
 
 #, fuzzy
-#~ msgid " * Updating %s"
-#~ msgstr "Cozinhando %s"
+msgid " * Updating %s"
+msgstr "Cozinhando %s"
 
-#~ msgid "Baking basic crud methods for "
-#~ msgstr "Criando o CRUD dos métodos para "
+msgid "Baking basic crud methods for "
+msgstr "Criando o CRUD dos métodos para "
 
-#~ msgid "Adding %s methods"
-#~ msgstr "Incluindo %s métodos"
+msgid "Adding %s methods"
+msgstr "Incluindo %s métodos"
 
 #, fuzzy
-#~ msgid "Baking %sController"
-#~ msgstr "Controller não encontrado"
+msgid "Baking %sController"
+msgstr "Controller não encontrado"
 
-#~ msgid "Would you like to build your controller interactively?"
-#~ msgstr "Você gostaria de construir seu controller interativamente?"
+msgid "Would you like to build your controller interactively?"
+msgstr "Você gostaria de construir seu controller interativamente?"
 
-#~ msgid "Warning: Choosing no will overwrite the %sController."
-#~ msgstr "Aviso: Escolher não sobrescreverá o %sController."
+msgid "Warning: Choosing no will overwrite the %sController."
+msgstr "Aviso: Escolher não sobrescreverá o %sController."
 
 #, fuzzy
-#~ msgid "Would you like to use dynamic scaffolding?"
-#~ msgstr "Você gostaria de usar scaffolding?"
+msgid "Would you like to use dynamic scaffolding?"
+msgstr "Você gostaria de usar scaffolding?"
 
 #, fuzzy
-#~ msgid "Would you like to use Session flash messages?"
-#~ msgstr "Você gostaria de usar Sessions?"
+msgid "Would you like to use Session flash messages?"
+msgstr "Você gostaria de usar Sessions?"
 
-#~ msgid "Look okay?"
-#~ msgstr "Tudo certo?"
+msgid "Look okay?"
+msgstr "Tudo certo?"
 
 #, fuzzy
-#~ msgid "The following controller will be created:"
-#~ msgstr "O seguinte Model será criado:"
+msgid "The following controller will be created:"
+msgstr "O seguinte Model será criado:"
 
 #, fuzzy
-#~ msgid ""
-#~ "Controller Name:\n"
-#~ "\t%s"
-#~ msgstr "Dump do controller:"
+msgid ""
+"Controller Name:\n"
+"\t%s"
+msgstr "Dump do controller:"
 
-#~ msgid "Helpers:"
-#~ msgstr "Helpers:"
+msgid "Helpers:"
+msgstr "Helpers:"
 
 #, fuzzy
-#~ msgid "Components:"
-#~ msgstr "Comandos:"
+msgid "Components:"
+msgstr "Comandos:"
 
 #, fuzzy
-#~ msgid ""
-#~ "Would you like to create some basic class methods \n"
-#~ "(index(), add(), view(), edit())?"
-#~ msgstr ""
-#~ "Você gostaria de incluir alguns métodos básicos (index(), add(), view(), "
-#~ "edit())?"
+msgid ""
+"Would you like to create some basic class methods \n"
+"(index(), add(), view(), edit())?"
+msgstr ""
+"Você gostaria de incluir alguns métodos básicos (index(), add(), view(), "
+"edit())?"
 
-#~ msgid "Would you like to create the basic class methods for admin routing?"
-#~ msgstr "Você gostaria de criar métodos para admin routing?"
+msgid "Would you like to create the basic class methods for admin routing?"
+msgstr "Você gostaria de criar métodos para admin routing?"
 
 #, fuzzy
-#~ msgid ""
-#~ "You must have a model for this class to build basic methods. Please try "
-#~ "again."
-#~ msgstr ""
-#~ "Você deve ter um model para esta classe para construir métodos de "
-#~ "scaffold. Por favor tente novamente."
+msgid ""
+"You must have a model for this class to build basic methods. Please try "
+"again."
+msgstr ""
+"Você deve ter um model para esta classe para construir métodos de "
+"scaffold. Por favor tente novamente."
 
 #, fuzzy
-#~ msgid "Baking controller class for %s..."
-#~ msgstr "Controller não encontrado"
+msgid "Baking controller class for %s..."
+msgstr "Controller não encontrado"
 
 #, fuzzy
-#~ msgid ""
-#~ "Would you like this controller to use other helpers\n"
-#~ "besides HtmlHelper and FormHelper?"
-#~ msgstr ""
-#~ "Você deseja que este controller use outros helpers além de HtmlHelper e "
-#~ "FormHelper?"
+msgid ""
+"Would you like this controller to use other helpers\n"
+"besides HtmlHelper and FormHelper?"
+msgstr ""
+"Você deseja que este controller use outros helpers além de HtmlHelper e "
+"FormHelper?"
 
 #, fuzzy
-#~ msgid ""
-#~ "Please provide a comma separated list of the other\n"
-#~ "helper names you'd like to use.\n"
-#~ "Example: 'Text, Js, Time'"
-#~ msgstr ""
-#~ "Por favor entre com uma lista separada por vírgulas de outros nomes de "
-#~ "helpers que você gostaria de usar.\n"
-#~ "Exemplo: 'Ajax, Javascript, Time'"
+msgid ""
+"Please provide a comma separated list of the other\n"
+"helper names you'd like to use.\n"
+"Example: 'Text, Js, Time'"
+msgstr ""
+"Por favor entre com uma lista separada por vírgulas de outros nomes de "
+"helpers que você gostaria de usar.\n"
+"Exemplo: 'Ajax, Javascript, Time'"
 
 #, fuzzy
-#~ msgid ""
-#~ "Would you like this controller to use other components\n"
-#~ "besides PaginatorComponent?"
-#~ msgstr ""
-#~ "Você deseja que este controller use outros helpers além de HtmlHelper e "
-#~ "FormHelper?"
+msgid ""
+"Would you like this controller to use other components\n"
+"besides PaginatorComponent?"
+msgstr ""
+"Você deseja que este controller use outros helpers além de HtmlHelper e "
+"FormHelper?"
 
-#~ msgid ""
-#~ "Please provide a comma separated list of the component names you'd like "
-#~ "to use.\n"
-#~ "Example: 'Acl, Security, RequestHandler'"
-#~ msgstr ""
-#~ "Por favor entre com uma lista separada por vírgulas com os nomes dos "
-#~ "componentes que você gostaria de usar.\n"
-#~ "Exemplo: 'Acl, Security, RequestHandler'"
+msgid ""
+"Please provide a comma separated list of the component names you'd like "
+"to use.\n"
+"Example: 'Acl, Security, RequestHandler'"
+msgstr ""
+"Por favor entre com uma lista separada por vírgulas com os nomes dos "
+"componentes que você gostaria de usar.\n"
+"Exemplo: 'Acl, Security, RequestHandler'"
 
 #, fuzzy
-#~ msgid "Possible Controllers based on your current database:"
-#~ msgstr "Possíveis Models baseado em seu atual banco de dados:"
+msgid "Possible Controllers based on your current database:"
+msgstr "Possíveis Models baseado em seu atual banco de dados:"
 
 #, fuzzy
-#~ msgid ""
-#~ "Enter a number from the list above,\n"
-#~ "type in the name of another controller, or 'q' to exit"
-#~ msgstr ""
-#~ "Entre com um número da lista acima, digite o nome de outro controller, ou "
-#~ "'q' para sair"
+msgid ""
+"Enter a number from the list above,\n"
+"type in the name of another controller, or 'q' to exit"
+msgstr ""
+"Entre com um número da lista acima, digite o nome de outro controller, ou "
+"'q' para sair"
 
-#~ msgid "Exit"
-#~ msgstr "Sair"
+msgid "Exit"
+msgstr "Sair"
 
 #, fuzzy
-#~ msgid ""
-#~ "The Controller name you supplied was empty,\n"
-#~ "or the number you selected was not an option. Please try again."
-#~ msgstr ""
-#~ "O nome de Controller que você forneceu estava vazio, ou o número \n"
-#~ "que você selecionou não era uma opção. Por favor tente novamente."
+msgid ""
+"The Controller name you supplied was empty,\n"
+"or the number you selected was not an option. Please try again."
+msgstr ""
+"O nome de Controller que você forneceu estava vazio, ou o número \n"
+"que você selecionou não era uma opção. Por favor tente novamente."
 
 #, fuzzy
-#~ msgid "Database Configuration:"
-#~ msgstr "Usar Database Config"
+msgid "Database Configuration:"
+msgstr "Usar Database Config"
 
 #, fuzzy
-#~ msgid "Persistent Connection?"
-#~ msgstr "Não há conexão com o banco de dados"
+msgid "Persistent Connection?"
+msgstr "Não há conexão com o banco de dados"
 
 #, fuzzy
-#~ msgid "Database Host:"
-#~ msgstr "Usar Database Config"
+msgid "Database Host:"
+msgstr "Usar Database Config"
 
 #, fuzzy
-#~ msgid "User:"
-#~ msgstr "Adiconar Usuário"
+msgid "User:"
+msgstr "Adiconar Usuário"
 
 #, fuzzy
-#~ msgid "The password you supplied was empty. Use an empty password?"
-#~ msgstr ""
-#~ "O caminho de diretório que você forneceu estava vazio. Por favor tente "
-#~ "novamente."
+msgid "The password you supplied was empty. Use an empty password?"
+msgstr ""
+"O caminho de diretório que você forneceu estava vazio. Por favor tente "
+"novamente."
 
 #, fuzzy
-#~ msgid "Database Name:"
-#~ msgstr "Tabela não encontrada no banco de dados"
+msgid "Database Name:"
+msgstr "Tabela não encontrada no banco de dados"
 
 #, fuzzy
-#~ msgid "Do you wish to add another database configuration?"
-#~ msgstr "Você gostaria de incluir uma nova regra de validação?"
+msgid "Do you wish to add another database configuration?"
+msgstr "Você gostaria de incluir uma nova regra de validação?"
 
 #, fuzzy
-#~ msgid "The following database configuration will be created:"
-#~ msgstr "O seguinte Model será criado:"
+msgid "The following database configuration will be created:"
+msgstr "O seguinte Model será criado:"
 
 #, fuzzy
-#~ msgid "Name:         %s"
-#~ msgstr "Caminho:            %s"
+msgid "Name:         %s"
+msgstr "Caminho:            %s"
 
 #, fuzzy
-#~ msgid "Datasource:   %s"
-#~ msgstr "Tabela: %s"
+msgid "Datasource:   %s"
+msgstr "Tabela: %s"
 
 #, fuzzy
-#~ msgid "Host:         %s"
-#~ msgstr "Caminho:            %s"
+msgid "Host:         %s"
+msgstr "Caminho:            %s"
 
 #, fuzzy
-#~ msgid "Port:         %s"
-#~ msgstr "Caminho:            %s"
+msgid "Port:         %s"
+msgstr "Caminho:            %s"
 
 #, fuzzy
-#~ msgid "User:         %s"
-#~ msgstr "Caminho:            %s"
+msgid "User:         %s"
+msgstr "Caminho:            %s"
 
 #, fuzzy
-#~ msgid "Pass:         %s"
-#~ msgstr "Caminho:            %s"
+msgid "Pass:         %s"
+msgstr "Caminho:            %s"
 
 #, fuzzy
-#~ msgid "Database:     %s"
-#~ msgstr "Tabela: %s"
+msgid "Database:     %s"
+msgstr "Tabela: %s"
 
 #, fuzzy
-#~ msgid "Table prefix: %s"
-#~ msgstr "Tabela: %s"
+msgid "Table prefix: %s"
+msgstr "Tabela: %s"
 
 #, fuzzy
-#~ msgid "Schema:       %s"
-#~ msgstr "Caminho:            %s"
+msgid "Schema:       %s"
+msgstr "Caminho:            %s"
 
-#~ msgid "Use Database Config"
-#~ msgstr "Usar Database Config"
+msgid "Use Database Config"
+msgstr "Usar Database Config"
 
 #, fuzzy
-#~ msgid "Bake new database configuration settings."
-#~ msgstr "Seu arquivo de configuração do banco de dados está presente."
+msgid "Bake new database configuration settings."
+msgstr "Seu arquivo de configuração do banco de dados está presente."
 
 #, fuzzy
-#~ msgid ""
-#~ "Current paths: %s\n"
-#~ "What is the path you would like to extract?\n"
-#~ "[Q]uit [D]one"
-#~ msgstr ""
-#~ "Qual o caminho completo que você deseja extrair?\n"
-#~ "Exemplo: %s\n"
-#~ "[Q]Sair [D]Continuar"
+msgid ""
+"Current paths: %s\n"
+"What is the path you would like to extract?\n"
+"[Q]uit [D]one"
+msgstr ""
+"Qual o caminho completo que você deseja extrair?\n"
+"Exemplo: %s\n"
+"[Q]Sair [D]Continuar"
 
-#~ msgid "Extract Aborted"
-#~ msgstr "Extração Abortada"
+msgid "Extract Aborted"
+msgstr "Extração Abortada"
 
 #, fuzzy
-#~ msgid "The directory path you supplied was not found. Please try again."
-#~ msgstr ""
-#~ "O caminho de diretório que você forneceu estava vazio. Por favor tente "
-#~ "novamente."
+msgid "The directory path you supplied was not found. Please try again."
+msgstr ""
+"O caminho de diretório que você forneceu estava vazio. Por favor tente "
+"novamente."
 
 #, fuzzy
-#~ msgid "Would you like to extract the messages from the CakePHP core?"
-#~ msgstr "Você gostaria de importar o schema para esta fixture?"
+msgid "Would you like to extract the messages from the CakePHP core?"
+msgstr "Você gostaria de importar o schema para esta fixture?"
 
 #, fuzzy
-#~ msgid ""
-#~ "What is the path you would like to output?\n"
-#~ "[Q]uit"
-#~ msgstr ""
-#~ "Qual o caminho para o layout de diretório que você deseja copiar?\n"
-#~ "Exemplo: %s"
+msgid ""
+"What is the path you would like to output?\n"
+"[Q]uit"
+msgstr ""
+"Qual o caminho para o layout de diretório que você deseja copiar?\n"
+"Exemplo: %s"
 
 #, fuzzy
-#~ msgid ""
-#~ "Would you like to merge all domain and category strings into the default."
-#~ "pot file?"
-#~ msgstr ""
-#~ "Você gostaria de misturar todos as string de domínios no arquivo default."
-#~ "pot?"
+msgid ""
+"Would you like to merge all domain and category strings into the default."
+"pot file?"
+msgstr ""
+"Você gostaria de misturar todos as string de domínios no arquivo default."
+"pot?"
 
 #, fuzzy
-#~ msgid "The output directory %s was not found or writable."
-#~ msgstr "Seu diretório tmp está com permissão de escrita"
+msgid "The output directory %s was not found or writable."
+msgstr "Seu diretório tmp está com permissão de escrita"
 
-#~ msgid "Extracting..."
-#~ msgstr "Extraindo..."
+msgid "Extracting..."
+msgstr "Extraindo..."
 
-#~ msgid "Paths:"
-#~ msgstr "Caminhos:"
+msgid "Paths:"
+msgstr "Caminhos:"
 
 #, fuzzy
-#~ msgid "Done."
-#~ msgstr "Feito"
+msgid "Done."
+msgstr "Feito"
 
 #, fuzzy
-#~ msgid "CakePHP Language String Extraction:"
-#~ msgstr "Documentação CakePHP"
+msgid "CakePHP Language String Extraction:"
+msgstr "Documentação CakePHP"
 
 #, fuzzy
-#~ msgid "Merge all domain and category strings into the default.po file."
-#~ msgstr ""
-#~ "Você gostaria de misturar todos as string de domínios no arquivo default."
-#~ "pot?"
+msgid "Merge all domain and category strings into the default.po file."
+msgstr ""
+"Você gostaria de misturar todos as string de domínios no arquivo default."
+"pot?"
 
-#~ msgid "Processing %s..."
-#~ msgstr "Processando %s..."
+msgid "Processing %s..."
+msgstr "Processando %s..."
 
 #, fuzzy
-#~ msgid "What would you like to name this file?"
-#~ msgstr "O que você gostaria de assar?"
+msgid "What would you like to name this file?"
+msgstr "O que você gostaria de assar?"
 
 #, fuzzy
-#~ msgid "Which database configuration to use for baking."
-#~ msgstr "Seu arquivo de configuração do banco de dados está presente."
+msgid "Which database configuration to use for baking."
+msgstr "Seu arquivo de configuração do banco de dados está presente."
 
 #, fuzzy
-#~ msgid "CamelCased name of the plugin to bake fixtures for."
-#~ msgstr "Digite o nome do plugin no formato CamelCase"
+msgid "CamelCased name of the plugin to bake fixtures for."
+msgstr "Digite o nome do plugin no formato CamelCase"
 
-#~ msgid "Would you like to import schema for this fixture?"
-#~ msgstr "Você gostaria de importar o schema para esta fixture?"
+msgid "Would you like to import schema for this fixture?"
+msgstr "Você gostaria de importar o schema para esta fixture?"
 
 #, fuzzy
-#~ msgid "Would you like to use record importing for this fixture?"
-#~ msgstr "Você gostaria de usar scaffolding?"
+msgid "Would you like to use record importing for this fixture?"
+msgstr "Você gostaria de usar scaffolding?"
 
-#~ msgid "Baking %s"
-#~ msgstr "Cozinhando %s"
+msgid "Baking %s"
+msgstr "Cozinhando %s"
 
-#~ msgid "Make a selection from the choices above"
-#~ msgstr "Faça a seleção das opções abaixo"
+msgid "Make a selection from the choices above"
+msgstr "Faça a seleção das opções abaixo"
 
 #, fuzzy
-#~ msgid ""
-#~ "Would you like to supply validation criteria \n"
-#~ "for the fields in your model?"
-#~ msgstr ""
-#~ "Você deseja fornecer critérios de validação para os campos de seu model?"
+msgid ""
+"Would you like to supply validation criteria \n"
+"for the fields in your model?"
+msgstr ""
+"Você deseja fornecer critérios de validação para os campos de seu model?"
 
 #, fuzzy
-#~ msgid ""
-#~ "Would you like to define model associations\n"
-#~ "(hasMany, hasOne, belongsTo, etc.)?"
-#~ msgstr ""
-#~ "Você gostaria de definir model associations (hasMany, hasOne, belongsTo, "
-#~ "etc.)?"
+msgid ""
+"Would you like to define model associations\n"
+"(hasMany, hasOne, belongsTo, etc.)?"
+msgstr ""
+"Você gostaria de definir model associations (hasMany, hasOne, belongsTo, "
+"etc.)?"
 
-#~ msgid "The following Model will be created:"
-#~ msgstr "O seguinte Model será criado:"
+msgid "The following Model will be created:"
+msgstr "O seguinte Model será criado:"
 
 #, fuzzy
-#~ msgid "Name:       %s"
-#~ msgstr "Caminho:            %s"
+msgid "Name:       %s"
+msgstr "Caminho:            %s"
 
-#~ msgid "DB Config:  %s"
-#~ msgstr "Configuração do DB: %s"
+msgid "DB Config:  %s"
+msgstr "Configuração do DB: %s"
 
-#~ msgid "DB Table:   %s"
-#~ msgstr "Tabela: %s"
+msgid "DB Table:   %s"
+msgstr "Tabela: %s"
 
-#~ msgid "Primary Key: %s"
-#~ msgstr "Chave primária: %s"
+msgid "Primary Key: %s"
+msgstr "Chave primária: %s"
 
-#~ msgid "Validation: %s"
-#~ msgstr "Validação: %s"
+msgid "Validation: %s"
+msgstr "Validação: %s"
 
 #, fuzzy
-#~ msgid "Associations:"
-#~ msgstr "Ações"
+msgid "Associations:"
+msgstr "Ações"
 
-#~ msgid "What is the primaryKey?"
-#~ msgstr "Qual é a primaryKey?"
+msgid "What is the primaryKey?"
+msgstr "Qual é a primaryKey?"
 
 #, fuzzy
-#~ msgid "Please select one of the following validation options:"
-#~ msgstr "Por favor confirme as seguintes associações:"
+msgid "Please select one of the following validation options:"
+msgstr "Por favor confirme as seguintes associações:"
 
-#~ msgid "Would you like to add another validation rule?"
-#~ msgstr "Você gostaria de incluir uma nova regra de validação?"
+msgid "Would you like to add another validation rule?"
+msgstr "Você gostaria de incluir uma nova regra de validação?"
 
-#~ msgid "One moment while the associations are detected."
-#~ msgstr "Um momento enquanto as associações são detectadas."
+msgid "One moment while the associations are detected."
+msgstr "Um momento enquanto as associações são detectadas."
 
-#~ msgid "None found."
-#~ msgstr "Nenhuma encontrada."
+msgid "None found."
+msgstr "Nenhuma encontrada."
 
-#~ msgid "Please confirm the following associations:"
-#~ msgstr "Por favor confirme as seguintes associações:"
+msgid "Please confirm the following associations:"
+msgstr "Por favor confirme as seguintes associações:"
 
-#~ msgid "Would you like to define some additional model associations?"
-#~ msgstr "Você deseja definir alguma associação adicional?"
+msgid "Would you like to define some additional model associations?"
+msgstr "Você deseja definir alguma associação adicional?"
 
-#~ msgid "What is the association type?"
-#~ msgstr "Qual é o tipo de associação?"
+msgid "What is the association type?"
+msgstr "Qual é o tipo de associação?"
 
-#~ msgid "Enter a number"
-#~ msgstr "Digite um número"
+msgid "Enter a number"
+msgstr "Digite um número"
 
 #, fuzzy
-#~ msgid ""
-#~ "For the following options be very careful to match your setup exactly.\n"
-#~ "Any spelling mistakes will cause errors."
-#~ msgstr ""
-#~ "Para as seguintes opções seja muito cuidadoso para igualar exatamente "
-#~ "suas configurações. Qualquer erro de digitação causará erros."
+msgid ""
+"For the following options be very careful to match your setup exactly.\n"
+"Any spelling mistakes will cause errors."
+msgstr ""
+"Para as seguintes opções seja muito cuidadoso para igualar exatamente "
+"suas configurações. Qualquer erro de digitação causará erros."
 
-#~ msgid "What is the alias for this association?"
-#~ msgstr "Qual é o alias para essa associação?"
+msgid "What is the alias for this association?"
+msgstr "Qual é o alias para essa associação?"
 
-#~ msgid "What className will %s use?"
-#~ msgstr "Qual className %s usará?"
+msgid "What className will %s use?"
+msgstr "Qual className %s usará?"
 
-#~ msgid "What is the table for this model?"
-#~ msgstr "Qual é a tabela para este model?"
+msgid "What is the table for this model?"
+msgstr "Qual é a tabela para este model?"
 
-#~ msgid "A helpful List of possible keys"
-#~ msgstr "Uma lista útil das possíveis keys"
+msgid "A helpful List of possible keys"
+msgstr "Uma lista útil das possíveis keys"
 
-#~ msgid "What is the foreignKey?"
-#~ msgstr "Qual é a foreignKey?"
+msgid "What is the foreignKey?"
+msgstr "Qual é a foreignKey?"
 
-#~ msgid "What is the foreignKey? Specify your own."
-#~ msgstr "Qual é a foreignKey? Especifique sua própria."
+msgid "What is the foreignKey? Specify your own."
+msgstr "Qual é a foreignKey? Especifique sua própria."
 
-#~ msgid "What is the associationForeignKey?"
-#~ msgstr "Qual é a associationForeignKey?"
+msgid "What is the associationForeignKey?"
+msgstr "Qual é a associationForeignKey?"
 
-#~ msgid "What is the joinTable?"
-#~ msgstr "Qual e a joinTable?"
+msgid "What is the joinTable?"
+msgstr "Qual e a joinTable?"
 
-#~ msgid "Define another association?"
-#~ msgstr "Definir outra associação?"
+msgid "Define another association?"
+msgstr "Definir outra associação?"
 
-#~ msgid "Possible Models based on your current database:"
-#~ msgstr "Possíveis Models baseado em seu atual banco de dados:"
+msgid "Possible Models based on your current database:"
+msgstr "Possíveis Models baseado em seu atual banco de dados:"
 
 #, fuzzy
-#~ msgid ""
-#~ "Given your model named '%s',\n"
-#~ "Cake would expect a database table named '%s'"
-#~ msgstr "Dado seu model chamado '%s', o Cake espera uma tabela chamada %s"
+msgid ""
+"Given your model named '%s',\n"
+"Cake would expect a database table named '%s'"
+msgstr "Dado seu model chamado '%s', o Cake espera uma tabela chamada %s"
 
-#~ msgid "Do you want to use this table?"
-#~ msgstr "Você quer usar essa tabela?"
+msgid "Do you want to use this table?"
+msgstr "Você quer usar essa tabela?"
 
 #, fuzzy
-#~ msgid "What is the name of the table?"
-#~ msgstr "Qual é a tabela para este model?"
+msgid "What is the name of the table?"
+msgstr "Qual é a tabela para este model?"
 
-#~ msgid "Your database does not have any tables."
-#~ msgstr "Seu banco de dados não tem nenhuma tabela."
+msgid "Your database does not have any tables."
+msgstr "Seu banco de dados não tem nenhuma tabela."
 
 #, fuzzy
-#~ msgid ""
-#~ "Enter a number from the list above,\n"
-#~ "type in the name of another model, or 'q' to exit"
-#~ msgstr ""
-#~ "Entre com um número da lista acima, digite o nome de outro model, ou 'q' "
-#~ "para sair"
+msgid ""
+"Enter a number from the list above,\n"
+"type in the name of another model, or 'q' to exit"
+msgstr ""
+"Entre com um número da lista acima, digite o nome de outro model, ou 'q' "
+"para sair"
 
 #, fuzzy
-#~ msgid ""
-#~ "The model name you supplied was empty,\n"
-#~ "or the number you selected was not an option. Please try again."
-#~ msgstr ""
-#~ "O nome de model que você forneceu estava vazio, ou o número que você "
-#~ "selecionou não era uma opção. Por favor tente novamente."
+msgid ""
+"The model name you supplied was empty,\n"
+"or the number you selected was not an option. Please try again."
+msgstr ""
+"O nome de model que você forneceu estava vazio, ou o número que você "
+"selecionou não era uma opção. Por favor tente novamente."
 
 #, fuzzy
-#~ msgid "Bake models."
-#~ msgstr "Bake All completado"
+msgid "Bake models."
+msgstr "Bake All completado"
 
 #, fuzzy
-#~ msgid "Bake all model files with associations and validation."
-#~ msgstr "Um momento enquanto as associações são detectadas."
+msgid "Bake all model files with associations and validation."
+msgstr "Um momento enquanto as associações são detectadas."
 
 #, fuzzy
-#~ msgid "The connection the model table is on."
-#~ msgstr "O Cake está apto a conectar ao banco de dados"
+msgid "The connection the model table is on."
+msgstr "O Cake está apto a conectar ao banco de dados"
 
-#~ msgid "Enter the name of the plugin in CamelCase format"
-#~ msgstr "Digite o nome do plugin no formato CamelCase"
+msgid "Enter the name of the plugin in CamelCase format"
+msgstr "Digite o nome do plugin no formato CamelCase"
 
 #, fuzzy
-#~ msgid "An error occurred trying to bake: %s in %s"
-#~ msgstr "Ocorreu um erro tentando assar: %s em %s"
+msgid "An error occurred trying to bake: %s in %s"
+msgstr "Ocorreu um erro tentando assar: %s em %s"
 
 #, fuzzy
-#~ msgid "<info>Plugin Name:</info> %s"
-#~ msgstr "Nome do plugin: %s"
+msgid "<info>Plugin Name:</info> %s"
+msgstr "Nome do plugin: %s"
 
 #, fuzzy
-#~ msgid "<info>Plugin Directory:</info> %s"
-#~ msgstr "Diretório do plugin: %s"
+msgid "<info>Plugin Directory:</info> %s"
+msgstr "Diretório do plugin: %s"
 
 #, fuzzy
-#~ msgid "<success>Created:</success> %s in %s"
-#~ msgstr "Criado: %s em %s"
+msgid "<success>Created:</success> %s in %s"
+msgstr "Criado: %s em %s"
 
 #, fuzzy
-#~ msgid "What is the path to the project you want to bake?"
-#~ msgstr ""
-#~ "Qual o caminho para o layout de diretório que você deseja copiar?\n"
-#~ "Exemplo: %s"
+msgid "What is the path to the project you want to bake?"
+msgstr ""
+"Qual o caminho para o layout de diretório que você deseja copiar?\n"
+"Exemplo: %s"
 
 #, fuzzy
-#~ msgid " * Random hash key created for 'Security.salt'"
-#~ msgstr "Hash key randômica criada para 'Security.salt'"
+msgid " * Random hash key created for 'Security.salt'"
+msgstr "Hash key randômica criada para 'Security.salt'"
 
-#~ msgid ""
-#~ "Unable to generate random hash for 'Security.salt', you should change it "
-#~ "in %s"
-#~ msgstr ""
-#~ "Incapaz de gerar hash randômica para 'Security.salt', você deveria alterá-"
-#~ "la em %s"
+msgid ""
+"Unable to generate random hash for 'Security.salt', you should change it "
+"in %s"
+msgstr ""
+"Incapaz de gerar hash randômica para 'Security.salt', você deveria alterá-"
+"la em %s"
 
 #, fuzzy
-#~ msgid " * Random seed created for 'Security.cipherSeed'"
-#~ msgstr "Hash key randômica criada para 'Security.salt'"
+msgid " * Random seed created for 'Security.cipherSeed'"
+msgstr "Hash key randômica criada para 'Security.salt'"
 
 #, fuzzy
-#~ msgid ""
-#~ "Unable to generate random seed for 'Security.cipherSeed', you should "
-#~ "change it in %s"
-#~ msgstr ""
-#~ "Incapaz de gerar hash randômica para 'Security.salt', você deveria alterá-"
-#~ "la em %s"
+msgid ""
+"Unable to generate random seed for 'Security.cipherSeed', you should "
+"change it in %s"
+msgstr ""
+"Incapaz de gerar hash randômica para 'Security.salt', você deveria alterá-"
+"la em %s"
 
 #, fuzzy
-#~ msgid " * CAKE_CORE_INCLUDE_PATH set to %s in %s"
-#~ msgstr "CAKE_CORE_INCLUDE_PATH setado para %s em webroot/test.php"
+msgid " * CAKE_CORE_INCLUDE_PATH set to %s in %s"
+msgstr "CAKE_CORE_INCLUDE_PATH setado para %s em webroot/test.php"
 
-#~ msgid "Unable to set CAKE_CORE_INCLUDE_PATH, you should change it in %s"
-#~ msgstr ""
-#~ "Falha ao setar CAKE_CORE_INCLUDE_PATH, você deveria modificá-lo em %s"
+msgid "Unable to set CAKE_CORE_INCLUDE_PATH, you should change it in %s"
+msgstr ""
+"Falha ao setar CAKE_CORE_INCLUDE_PATH, você deveria modificá-lo em %s"
 
 #, fuzzy
-#~ msgid ""
-#~ "   * <warning>Remember to check these values after moving to production "
-#~ "server</warning>"
-#~ msgstr ""
-#~ "Lembre-se de checar esses valores após alterar o server para produção"
+msgid ""
+"   * <warning>Remember to check these values after moving to production "
+"server</warning>"
+msgstr ""
+"Lembre-se de checar esses valores após alterar o server para produção"
 
-#~ msgid "Could not set permissions on %s"
-#~ msgstr "Impossível setar permissões em %s"
+msgid "Could not set permissions on %s"
+msgstr "Impossível setar permissões em %s"
 
 #, fuzzy
-#~ msgid "What is the path to the directory layout you wish to copy?"
-#~ msgstr ""
-#~ "Qual o caminho para o layout de diretório que você deseja copiar?\n"
-#~ "Exemplo: %s"
+msgid "What is the path to the directory layout you wish to copy?"
+msgstr ""
+"Qual o caminho para o layout de diretório que você deseja copiar?\n"
+"Exemplo: %s"
 
-#~ msgid "The directory path you supplied was empty. Please try again."
-#~ msgstr ""
-#~ "O caminho de diretório que você forneceu estava vazio. Por favor tente "
-#~ "novamente."
+msgid "The directory path you supplied was empty. Please try again."
+msgstr ""
+"O caminho de diretório que você forneceu estava vazio. Por favor tente "
+"novamente."
 
-#~ msgid "Directory path does not exist please choose another:"
-#~ msgstr "Diretório não existente, por favor selecione outro:"
+msgid "Directory path does not exist please choose another:"
+msgstr "Diretório não existente, por favor selecione outro:"
 
 #, fuzzy
-#~ msgid "<info>Skel Directory</info>: "
-#~ msgstr "Diretório Skel:"
+msgid "<info>Skel Directory</info>: "
+msgstr "Diretório Skel:"
 
 #, fuzzy
-#~ msgid "<info>Will be copied to</info>: "
-#~ msgstr "%s copiado para %s"
+msgid "<info>Will be copied to</info>: "
+msgstr "%s copiado para %s"
 
 #, fuzzy
-#~ msgid "<error>Bake Aborted.</error>"
-#~ msgstr "Bake All completado"
+msgid "<error>Bake Aborted.</error>"
+msgstr "Bake All completado"
 
 #, fuzzy
-#~ msgid "What would you like the prefix route to be?"
-#~ msgstr "O que você gostaria de fazer?"
+msgid "What would you like the prefix route to be?"
+msgstr "O que você gostaria de fazer?"
 
 #, fuzzy
-#~ msgid "Example: %s"
-#~ msgstr "Tipo: %s"
+msgid "Example: %s"
+msgstr "Tipo: %s"
 
 #, fuzzy
-#~ msgid "Which bake theme would you like to use?"
-#~ msgstr "O que você gostaria de assar?"
+msgid "Which bake theme would you like to use?"
+msgstr "O que você gostaria de assar?"
 
 #, fuzzy
-#~ msgid "Could not find template for %s"
-#~ msgstr "Não pude encontrar %s."
+msgid "Could not find template for %s"
+msgstr "Não pude encontrar %s."
 
 #, fuzzy
-#~ msgid "Enter the type of object to bake a test for or (q)uit"
-#~ msgstr "Digite o nome para testar ou 'q' para sair"
+msgid "Enter the type of object to bake a test for or (q)uit"
+msgstr "Digite o nome para testar ou 'q' para sair"
 
 #, fuzzy
-#~ msgid ""
-#~ "Please provide a comma separated list of the fixtures names you'd like to "
-#~ "use.\n"
-#~ "Example: 'app.comment, app.post, plugin.forums.post'"
-#~ msgstr ""
-#~ "Por favor entre com uma lista separada por vírgulas de outros nomes de "
-#~ "helpers que você gostaria de usar.\n"
-#~ "Exemplo: 'Ajax, Javascript, Time'"
+msgid ""
+"Please provide a comma separated list of the fixtures names you'd like to "
+"use.\n"
+"Example: 'app.comment, app.post, plugin.forums.post'"
+msgstr ""
+"Por favor entre com uma lista separada por vírgulas de outros nomes de "
+"helpers que você gostaria de usar.\n"
+"Exemplo: 'Ajax, Javascript, Time'"
 
 #, fuzzy
-#~ msgid "CamelCased name of the plugin to bake tests for."
-#~ msgstr "Digite o nome do plugin no formato CamelCase"
+msgid "CamelCased name of the plugin to bake tests for."
+msgstr "Digite o nome do plugin no formato CamelCase"
 
 #, fuzzy
-#~ msgid "Would you like to create the views for admin routing?"
-#~ msgstr "Você gostaria de criar métodos para admin routing?"
+msgid "Would you like to create the views for admin routing?"
+msgstr "Você gostaria de criar métodos para admin routing?"
 
-#~ msgid "Controller not found"
-#~ msgstr "Controller não encontrado"
+msgid "Controller not found"
+msgstr "Controller não encontrado"
 
-#~ msgid ""
-#~ "The file '%s' could not be found.\n"
-#~ "In order to bake a view, you'll need to first create the controller."
-#~ msgstr ""
-#~ "O arquivo '%s' não pôde ser encontrado.\n"
-#~ "Para assar um view, você precisa primeiro criar o controller."
+msgid ""
+"The file '%s' could not be found.\n"
+"In order to bake a view, you'll need to first create the controller."
+msgstr ""
+"O arquivo '%s' não pôde ser encontrado.\n"
+"Para assar um view, você precisa primeiro criar o controller."
 
 #, fuzzy
-#~ msgid "The action name you supplied was empty. Please try again."
-#~ msgstr ""
-#~ "O caminho de diretório que você forneceu estava vazio. Por favor tente "
-#~ "novamente."
+msgid "The action name you supplied was empty. Please try again."
+msgstr ""
+"O caminho de diretório que você forneceu estava vazio. Por favor tente "
+"novamente."
 
 #, fuzzy
-#~ msgid "The following view will be created:"
-#~ msgstr "O seguinte Model será criado:"
+msgid "The following view will be created:"
+msgstr "O seguinte Model será criado:"
 
 #, fuzzy
-#~ msgid "Controller Name: %s"
-#~ msgstr "Dump do controller:"
+msgid "Controller Name: %s"
+msgstr "Dump do controller:"
 
-#~ msgid "Path:            %s"
-#~ msgstr "Caminho:            %s"
+msgid "Path:            %s"
+msgstr "Caminho:            %s"
 
 #, fuzzy
-#~ msgid "Bake Aborted."
-#~ msgstr "Bake All completado"
+msgid "Bake Aborted."
+msgstr "Bake All completado"
 
 #, fuzzy
-#~ msgid "abday"
-#~ msgstr "dia"
+msgid "abday"
+msgstr "dia"
 
 #, fuzzy
-#~ msgid "day"
-#~ msgstr "dia"
+msgid "day"
+msgstr "dia"
 
-#~ msgid "d_t_fmt"
-#~ msgstr "d_t_fmt"
+msgid "d_t_fmt"
+msgstr "d_t_fmt"
 
 #, fuzzy
-#~ msgid "abmon"
-#~ msgstr "mês"
+msgid "abmon"
+msgstr "mês"
 
 #, fuzzy
-#~ msgid "mon"
-#~ msgstr "mês"
+msgid "mon"
+msgstr "mês"
 
-#~ msgid "am_pm"
-#~ msgstr "am_pm"
+msgid "am_pm"
+msgstr "am_pm"
 
-#~ msgid "t_fmt_ampm"
-#~ msgstr "t_fmt_ampm"
+msgid "t_fmt_ampm"
+msgstr "t_fmt_ampm"
 
-#~ msgid "d_fmt"
-#~ msgstr "d_fmt"
+msgid "d_fmt"
+msgstr "d_fmt"
 
-#~ msgid "t_fmt"
-#~ msgstr "t_fmt"
+msgid "t_fmt"
+msgstr "t_fmt"
 
 #, fuzzy
-#~ msgid "Error: Class %s could not be loaded."
-#~ msgstr "%s não pode ser carregado"
+msgid "Error: Class %s could not be loaded."
+msgstr "%s não pode ser carregado"
 
-#~ msgid "Error: Unknown %1$s command %2$s."
-#~ msgstr "Erro: Desconhecido %1$s comando %2$s."
+msgid "Error: Unknown %1$s command %2$s."
+msgstr "Erro: Desconhecido %1$s comando %2$s."
 
-#~ msgid "For usage try `cake %s help`"
-#~ msgstr "Para usar, tente `cake %s help`"
+msgid "For usage try `cake %s help`"
+msgstr "Para usar, tente `cake %s help`"
 
-#~ msgid "Missing Controller '%s'"
-#~ msgstr "Controller '%s' não encontrado"
+msgid "Missing Controller '%s'"
+msgstr "Controller '%s' não encontrado"
 
-#~ msgid "Missing Method '%s' in '%s'"
-#~ msgstr "Método '%s' não encontrado em '%s'"
+msgid "Missing Method '%s' in '%s'"
+msgstr "Método '%s' não encontrado em '%s'"
 
-#~ msgid "Trying to access private method '%s' in '%s'"
-#~ msgstr "Tentando acessar o método privado '%s' em '%s'"
+msgid "Trying to access private method '%s' in '%s'"
+msgstr "Tentando acessar o método privado '%s' em '%s'"
 
-#~ msgid "Missing database table '%s' for model '%s'"
-#~ msgstr "Tabela '%s' não encontrada para o model '%s'"
+msgid "Missing database table '%s' for model '%s'"
+msgstr "Tabela '%s' não encontrada para o model '%s'"
 
-#~ msgid "Missing View '%s' for '%s' in '%s'"
-#~ msgstr "View '%s' para '%s' em '%s' não encontrada"
+msgid "Missing View '%s' for '%s' in '%s'"
+msgstr "View '%s' para '%s' em '%s' não encontrada"
 
-#~ msgid "Missing Layout '%s'"
-#~ msgstr "Layout '%s' não encontrado"
+msgid "Missing Layout '%s'"
+msgstr "Layout '%s' não encontrado"
 
-#~ msgid "Missing Database Connection. Try 'cake bake'"
-#~ msgstr "Conexão com o banco de dados não detectada. Tente 'cake bake'"
+msgid "Missing Database Connection. Try 'cake bake'"
+msgstr "Conexão com o banco de dados não detectada. Tente 'cake bake'"
 
-#~ msgid "Missing Helper file '%s' for '%s'"
-#~ msgstr "Arquivo de Helper '%s' para '%s' não encontrado"
+msgid "Missing Helper file '%s' for '%s'"
+msgstr "Arquivo de Helper '%s' para '%s' não encontrado"
 
-#~ msgid "Missing Helper class '%s' in '%s'"
-#~ msgstr "Classe Helper '%s' em '%s' não encontrada"
+msgid "Missing Helper class '%s' in '%s'"
+msgstr "Classe Helper '%s' em '%s' não encontrada"
 
-#~ msgid "Missing Component file '%s' for '%s'"
-#~ msgstr "Arquivo de Component '%s' para '%s' não encontrado"
+msgid "Missing Component file '%s' for '%s'"
+msgstr "Arquivo de Component '%s' para '%s' não encontrado"
 
-#~ msgid "Missing Component class '%s' in '%s'"
-#~ msgstr "Classe Component '%s' em '%s' não encontrada"
+msgid "Missing Component class '%s' in '%s'"
+msgstr "Classe Component '%s' em '%s' não encontrada"
 
-#~ msgid "Missing model '%s'"
-#~ msgstr "Model '%s' não encontrado"
+msgid "Missing model '%s'"
+msgstr "Model '%s' não encontrado"
 
-#~ msgid "an ACL implementation other than DB. Please change"
-#~ msgstr "uma implementação ACL diferente de DB. Por favor modifique"
+msgid "an ACL implementation other than DB. Please change"
+msgstr "uma implementação ACL diferente de DB. Por favor modifique"
 
-#~ msgid "DbAcl before attempting to use this script"
-#~ msgstr "DbAcl antes de tentar usar este script"
+msgid "DbAcl before attempting to use this script"
+msgstr "DbAcl antes de tentar usar este script"
 
-#~ msgid "Available ACL commands:"
-#~ msgstr "Comandos ACL disponíveis:"
+msgid "Available ACL commands:"
+msgstr "Comandos ACL disponíveis:"
 
-#~ msgid ""
-#~ "For help, run the 'help' command.  For help on a specific command, run "
-#~ "'help <command>'"
-#~ msgstr ""
-#~ "Para ajuda, execute o comando 'help'. Para ajuda em um comando "
-#~ "específico, execute 'help <command>'"
+msgid ""
+"For help, run the 'help' command.  For help on a specific command, run "
+"'help <command>'"
+msgstr ""
+"Para ajuda, execute o comando 'help'. Para ajuda em um comando "
+"específico, execute 'help <command>'"
 
-#~ msgid "%s deleted"
-#~ msgstr "%s excluído"
+msgid "%s deleted"
+msgstr "%s excluído"
 
-#~ msgid "%s is allowed."
-#~ msgstr "%s é permitido."
+msgid "%s is allowed."
+msgstr "%s é permitido."
 
-#~ msgid "Usage: cake acl <command> <arg1> <arg2>..."
-#~ msgstr "Uso: cake acl <comando> <arg1> <arg2>..."
+msgid "Usage: cake acl <command> <arg1> <arg2>..."
+msgstr "Uso: cake acl <comando> <arg1> <arg2>..."
 
-#~ msgid "Commands:"
-#~ msgstr "Comandos:"
+msgid "Commands:"
+msgstr "Comandos:"
 
 #, fuzzy
-#~ msgid "specified by <parent>, an id/alias."
-#~ msgstr "Especifique um alias alternativo."
+msgid "specified by <parent>, an id/alias."
+msgstr "Especifique um alias alternativo."
 
 #, fuzzy
-#~ msgid "The <parent> and <node> references can be"
-#~ msgstr "As referências <pai> e <nó> podem ser em um dos seguintes formatos:"
+msgid "The <parent> and <node> references can be"
+msgstr "As referências <pai> e <nó> podem ser em um dos seguintes formatos:"
 
 #, fuzzy
-#~ msgid "in one of the following formats:"
-#~ msgstr "Por favor confirme as seguintes associações:"
+msgid "in one of the following formats:"
+msgstr "Por favor confirme as seguintes associações:"
 
 #, fuzzy
-#~ msgid "<model>.<id> - The node will be bound to a"
-#~ msgstr ""
-#~ "<model>.<id> - O nó vai ser vinculado a uma gravação específica do modelo "
-#~ "dado"
+msgid "<model>.<id> - The node will be bound to a"
+msgstr ""
+"<model>.<id> - O nó vai ser vinculado a uma gravação específica do modelo "
+"dado"
 
 #, fuzzy
-#~ msgid "specific record of the given model."
-#~ msgstr ""
-#~ "<model>.<id> - O nó vai ser vinculado a uma gravação específica do modelo "
-#~ "dado"
+msgid "specific record of the given model."
+msgstr ""
+"<model>.<id> - O nó vai ser vinculado a uma gravação específica do modelo "
+"dado"
 
 #, fuzzy
-#~ msgid "<alias> - The node will be given a string alias,"
-#~ msgstr ""
-#~ "<alias> - Será dado ao nó uma string de apelido - alias - (ou caminho, no "
-#~ "caso de <pai>),"
+msgid "<alias> - The node will be given a string alias,"
+msgstr ""
+"<alias> - Será dado ao nó uma string de apelido - alias - (ou caminho, no "
+"caso de <pai>),"
 
-#~ msgid " (or path, in the case of <parent>)"
-#~ msgstr " (ou caminho, no caso de <parente>)"
+msgid " (or path, in the case of <parent>)"
+msgstr " (ou caminho, no caso de <parente>)"
 
 #, fuzzy
-#~ msgid "i.e. 'John'.  When used with <parent>,"
-#~ msgstr ""
-#~ "por exemplo 'João'.  Quando usado com <pai>, toma a forma de um caminho "
-#~ "de apelidos,"
+msgid "i.e. 'John'.  When used with <parent>,"
+msgstr ""
+"por exemplo 'João'.  Quando usado com <pai>, toma a forma de um caminho "
+"de apelidos,"
 
 #, fuzzy
-#~ msgid "this takes the form of an alias path,"
-#~ msgstr ""
-#~ "por exemplo 'João'.  Quando usado com <pai>, toma a forma de um caminho "
-#~ "de apelidos,"
+msgid "this takes the form of an alias path,"
+msgstr ""
+"por exemplo 'João'.  Quando usado com <pai>, toma a forma de um caminho "
+"de apelidos,"
 
-#~ msgid "i.e. <group>/<subgroup>/<parent>."
-#~ msgstr "por exemplo <grupo>/<subgrupo>/<pai>."
+msgid "i.e. <group>/<subgroup>/<parent>."
+msgstr "por exemplo <grupo>/<subgrupo>/<pai>."
 
-#~ msgid "To add a node at the root level,"
-#~ msgstr "Para incluir um nó no nível raiz,"
+msgid "To add a node at the root level,"
+msgstr "Para incluir um nó no nível raiz,"
 
 #, fuzzy
-#~ msgid "enter 'root' or '/' as the <parent> parameter."
-#~ msgstr ""
-#~ "Para adicionar um nó no nível raiz, digite 'root' ou '/' como parâmtro "
-#~ "<pai>."
+msgid "enter 'root' or '/' as the <parent> parameter."
+msgstr ""
+"Para adicionar um nó no nível raiz, digite 'root' ou '/' como parâmtro "
+"<pai>."
 
 #, fuzzy
-#~ msgid "For more detailed parameter usage info,"
-#~ msgstr ""
-#~ "Para uma informação sobre uso de parâmetros mais detalhada, veja o help "
-#~ "para o comando 'create'."
+msgid "For more detailed parameter usage info,"
+msgstr ""
+"Para uma informação sobre uso de parâmetros mais detalhada, veja o help "
+"para o comando 'create'."
 
 #, fuzzy
-#~ msgid "see help for the 'create' command."
-#~ msgstr ""
-#~ "Para uma informação sobre uso de parâmetros mais detalhada, veja o help "
-#~ "para o comando 'create'."
+msgid "see help for the 'create' command."
+msgstr ""
+"Para uma informação sobre uso de parâmetros mais detalhada, veja o help "
+"para o comando 'create'."
 
 #, fuzzy
-#~ msgid "the parent ACL object specified by <parent>."
-#~ msgstr ""
-#~ "Retorna o caminho para o objeto ACL especificado por <nó>. Este comando"
+msgid "the parent ACL object specified by <parent>."
+msgstr ""
+"Retorna o caminho para o objeto ACL especificado por <nó>. Este comando"
 
-#~ msgid "object in the tree."
-#~ msgstr "objeto na árvore."
+msgid "object in the tree."
+msgstr "objeto na árvore."
 
-#~ msgid "or"
-#~ msgstr "ou"
+msgid "or"
+msgstr "ou"
 
-#~ msgid "Use this command to grant ACL permissions. Once executed, the ARO"
-#~ msgstr ""
-#~ "Use este comando para ceder permissões ACL. Uma vez executado, o ARO"
+msgid "Use this command to grant ACL permissions. Once executed, the ARO"
+msgstr ""
+"Use este comando para ceder permissões ACL. Uma vez executado, o ARO"
 
-#~ msgid "specified (and its children, if any) will have ALLOW access to the"
-#~ msgstr ""
-#~ "especificado (e seus filhos, se existir algum) terão permissão de acesso "
-#~ "(ALLOW) para a"
+msgid "specified (and its children, if any) will have ALLOW access to the"
+msgstr ""
+"especificado (e seus filhos, se existir algum) terão permissão de acesso "
+"(ALLOW) para a"
 
-#~ msgid "specified ACO action (and the ACO's children, if any)."
-#~ msgstr " ação ACO específicado (e as filhas de ACO, se existir alguma)."
+msgid "specified ACO action (and the ACO's children, if any)."
+msgstr " ação ACO específicado (e as filhas de ACO, se existir alguma)."
 
-#~ msgid "Use this command to deny ACL permissions. Once executed, the ARO"
-#~ msgstr "Use este comando para negar pemissões ACL. Uma vez executado, o ARO"
+msgid "Use this command to deny ACL permissions. Once executed, the ARO"
+msgstr "Use este comando para negar pemissões ACL. Uma vez executado, o ARO"
 
-#~ msgid "specified (and its children, if any) will have DENY access to the"
-#~ msgstr ""
-#~ "especificado (e seus filhos, se existir algum) terão acesso negado (DENY) "
-#~ "para a"
+msgid "specified (and its children, if any) will have DENY access to the"
+msgstr ""
+"especificado (e seus filhos, se existir algum) terão acesso negado (DENY) "
+"para a"
 
-#~ msgid "permissions settings from its parent."
-#~ msgstr "configurações de permissões de seu pai."
+msgid "permissions settings from its parent."
+msgstr "configurações de permissões de seu pai."
 
-#~ msgid "Displays this help message, or a message on a specific command."
-#~ msgstr ""
-#~ "Exibe esta mensagem de ajuda, ou uma mensagem sobre um comando específico."
+msgid "Displays this help message, or a message on a specific command."
+msgstr ""
+"Exibe esta mensagem de ajuda, ou uma mensagem sobre um comando específico."
 
-#~ msgid "Missing/Unknown node type: '%s'"
-#~ msgstr "Tipo de nó desconhecido/não encontrado: '%s'"
+msgid "Missing/Unknown node type: '%s'"
+msgstr "Tipo de nó desconhecido/não encontrado: '%s'"
 
 #, fuzzy
-#~ msgid ""
-#~ "Please specify which ACL object type you wish to create. Either \"aro\" "
-#~ "or \"aco\""
-#~ msgstr "Por favor especifique qual tipo de objeto ACL você deseja criar."
+msgid ""
+"Please specify which ACL object type you wish to create. Either \"aro\" "
+"or \"aco\""
+msgstr "Por favor especifique qual tipo de objeto ACL você deseja criar."
 
-#~ msgid ""
-#~ "%s directory could not be found.\n"
-#~ "Be sure you have created %s"
-#~ msgstr ""
-#~ "Diretório %s não pôde ser encontrado.\n"
-#~ "Certifique-se que você criou %s"
+msgid ""
+"%s directory could not be found.\n"
+"Be sure you have created %s"
+msgstr ""
+"Diretório %s não pôde ser encontrado.\n"
+"Certifique-se que você criou %s"
 
-#~ msgid "%s Model was baked."
-#~ msgstr "Model %s saiu do forno."
+msgid "%s Model was baked."
+msgstr "Model %s saiu do forno."
 
-#~ msgid "%s Controller was baked."
-#~ msgstr "Controller %s saiu do forno."
+msgid "%s Controller was baked."
+msgstr "Controller %s saiu do forno."
 
 #, fuzzy
-#~ msgid "%s Views were baked."
-#~ msgstr "Model %s saiu do forno."
+msgid "%s Views were baked."
+msgstr "Model %s saiu do forno."
 
-#~ msgid "I18n Shell:"
-#~ msgstr "I18n Shell:"
+msgid "I18n Shell:"
+msgstr "I18n Shell:"
 
-#~ msgid "and generates .pot file(s) with translations."
-#~ msgstr "e gera arquivo(s) .pot com traduções."
+msgid "and generates .pot file(s) with translations."
+msgstr "e gera arquivo(s) .pot com traduções."
 
-#~ msgid "usage:"
-#~ msgstr "uso:"
+msgid "usage:"
+msgstr "uso:"
 
-#~ msgid "%s could not be loaded"
-#~ msgstr "%s não pode ser carregado"
+msgid "%s could not be loaded"
+msgstr "%s não pode ser carregado"
 
-#~ msgid "Quitting."
-#~ msgstr "Saindo."
+msgid "Quitting."
+msgstr "Saindo."
 
 #, fuzzy
-#~ msgid "Wrote `%s`"
-#~ msgstr "Escreveu"
+msgid "Wrote `%s`"
+msgstr "Escreveu"
 
-#~ msgid "Sorry, you did not pass any arguments!"
-#~ msgstr "Desculpe, você não pasosu nenhum argumento!"
+msgid "Sorry, you did not pass any arguments!"
+msgstr "Desculpe, você não pasosu nenhum argumento!"
 
 #, fuzzy
-#~ msgid "Sorry, the tests could not be found."
-#~ msgstr "%s não pôde ser encontrado."
+msgid "Sorry, the tests could not be found."
+msgstr "%s não pôde ser encontrado."
 
-#~ msgid ""
-#~ "You must install Xdebug to use the CakePHP(tm) Code Coverage Analyzation. "
-#~ "Download it from http://www.xdebug.org/docs/install"
-#~ msgstr ""
-#~ "Você deve instalar o Xdebug para usar o CakePHP(tm) Code Coverage "
-#~ "Analyzation. Baixe em from http://www.xdebug.org/docs/install"
+msgid ""
+"You must install Xdebug to use the CakePHP(tm) Code Coverage Analyzation. "
+"Download it from http://www.xdebug.org/docs/install"
+msgstr ""
+"Você deve instalar o Xdebug para usar o CakePHP(tm) Code Coverage "
+"Analyzation. Baixe em from http://www.xdebug.org/docs/install"
 
-#~ msgid ""
-#~ "Sorry, Simpletest could not be found. Download it from http://simpletest."
-#~ "org and install it to your vendors directory."
-#~ msgstr ""
-#~ "Desculpe, Simpletest não pode ser encontrado. Baixe em  http://simpletest."
-#~ "org e instale no diretório vendors."
+msgid ""
+"Sorry, Simpletest could not be found. Download it from http://simpletest."
+"org and install it to your vendors directory."
+msgstr ""
+"Desculpe, Simpletest não pode ser encontrado. Baixe em  http://simpletest."
+"org e instale no diretório vendors."
 
-#~ msgid "Would you like this controller to use any components?"
-#~ msgstr "Você deseja que este controller use algum componente?"
+msgid "Would you like this controller to use any components?"
+msgstr "Você deseja que este controller use algum componente?"
 
 #, fuzzy
-#~ msgid "The Extract script generates .pot file(s) with translations"
-#~ msgstr "e gera arquivo(s) .pot com traduções."
+msgid "The Extract script generates .pot file(s) with translations"
+msgstr "e gera arquivo(s) .pot com traduções."
 
 #, fuzzy
-#~ msgid "Usage: cake i18n extract <command> <param1> <param2>..."
-#~ msgstr "Uso: cake acl <comando> <arg1> <arg2>..."
+msgid "Usage: cake i18n extract <command> <param1> <param2>..."
+msgstr "Uso: cake acl <comando> <arg1> <arg2>..."
 
-#~ msgid "Params:"
-#~ msgstr "Parâmetros:"
+msgid "Params:"
+msgstr "Parâmetros:"
 
-#~ msgid "Table %s does not exist, cannot bake a model without a table."
-#~ msgstr ""
-#~ "A tabela %s não existe. Não é possível cozinhar um model sem a tabela."
+msgid "Table %s does not exist, cannot bake a model without a table."
+msgstr ""
+"A tabela %s não existe. Não é possível cozinhar um model sem a tabela."
 
-#~ msgid "Plugin: %s"
-#~ msgstr "Plugin: %s"
+msgid "Plugin: %s"
+msgstr "Plugin: %s"
 
 #, fuzzy
-#~ msgid "%s in path %s not found."
-#~ msgstr "%s não encontrado"
+msgid "%s in path %s not found."
+msgstr "%s não encontrado"
 
-#~ msgid "Welcome page created"
-#~ msgstr "Página de boas-vindas criada"
+msgid "Welcome page created"
+msgstr "Página de boas-vindas criada"
 
-#~ msgid "The Welcome page was NOT created"
-#~ msgstr "A página de boas-vindas não foi criada"
+msgid "The Welcome page was NOT created"
+msgstr "A página de boas-vindas não foi criada"
 
-#~ msgid "CAKE_CORE_INCLUDE_PATH set to %s in webroot/index.php"
-#~ msgstr "CAKE_CORE_INCLUDE_PATH setado para %s em webroot/index.php"
+msgid "CAKE_CORE_INCLUDE_PATH set to %s in webroot/index.php"
+msgstr "CAKE_CORE_INCLUDE_PATH setado para %s em webroot/index.php"
 
-#~ msgid "chmod -R 0777 %s"
-#~ msgstr "chmod -R 0777 %s"
+msgid "chmod -R 0777 %s"
+msgstr "chmod -R 0777 %s"
 
 #, fuzzy
-#~ msgid " '%s' could not be created properly"
-#~ msgstr "SQL dump não pôde ser criado"
+msgid " '%s' could not be created properly"
+msgstr "SQL dump não pôde ser criado"
 
-#~ msgid "CakePHP: the rapid development php framework:"
-#~ msgstr "CakePHP: o framework php de desenvolvimento rápido:"
+msgid "CakePHP: the rapid development php framework:"
+msgstr "CakePHP: o framework php de desenvolvimento rápido:"
 
-#~ msgid "Method write() not implemented in %s"
-#~ msgstr "Método write() não implementado em %s"
+msgid "Method write() not implemented in %s"
+msgstr "Método write() não implementado em %s"
 
-#~ msgid "Method read() not implemented in %s"
-#~ msgstr "Método read() não implementado em %s"
+msgid "Method read() not implemented in %s"
+msgstr "Método read() não implementado em %s"
 
 #, fuzzy
-#~ msgid "Method increment() not implemented in %s"
-#~ msgstr "Método read() não implementado em %s"
+msgid "Method increment() not implemented in %s"
+msgstr "Método read() não implementado em %s"
 
 #, fuzzy
-#~ msgid "Method decrement() not implemented in %s"
-#~ msgstr "Método read() não implementado em %s"
+msgid "Method decrement() not implemented in %s"
+msgstr "Método read() não implementado em %s"
 
-#~ msgid "%s doesn't exist"
-#~ msgstr "%s não existe"
+msgid "%s doesn't exist"
+msgstr "%s não existe"
 
-#~ msgid "Writing session key {%s}: %s"
-#~ msgstr "Escrevendo chave da sessão {%s}: %s"
+msgid "Writing session key {%s}: %s"
+msgstr "Escrevendo chave da sessão {%s}: %s"
 
-#~ msgid ""
-#~ "You must set the all Configure::write('Session.*') in core.php to use "
-#~ "database storage"
-#~ msgstr ""
-#~ "Você deve setar todos os Configure::write('Session.*') no core.php para "
-#~ "usar armazenamento no banco de dados"
+msgid ""
+"You must set the all Configure::write('Session.*') in core.php to use "
+"database storage"
+msgstr ""
+"Você deve setar todos os Configure::write('Session.*') no core.php para "
+"usar armazenamento no banco de dados"
 
-#~ msgid "Configure::load() - no variable $config found in %s.php"
-#~ msgstr "Configure::load() - variável $config não encontrada em %s.php"
+msgid "Configure::load() - no variable $config found in %s.php"
+msgstr "Configure::load() - variável $config não encontrada em %s.php"
 
 #, fuzzy
-#~ msgid ""
-#~ "Cache not configured properly. Please check Cache::config(); in APP/"
-#~ "config/core.php"
-#~ msgstr ""
-#~ "Seu cache NÃO está funcionando. Por favor verifique as configurações em "
-#~ "APP/config/core.php"
+msgid ""
+"Cache not configured properly. Please check Cache::config(); in APP/"
+"config/core.php"
+msgstr ""
+"Seu cache NÃO está funcionando. Por favor verifique as configurações em "
+"APP/config/core.php"
 
-#~ msgid "Missing Method in Controller"
-#~ msgstr "Método não encontrado no Controller"
+msgid "Missing Method in Controller"
+msgstr "Método não encontrado no Controller"
 
-#~ msgid "Trying to access private method in class"
-#~ msgstr "Tentativa de acessar método privado na classe"
+msgid "Trying to access private method in class"
+msgstr "Tentativa de acessar método privado na classe"
 
-#~ msgid "Scaffold Missing Database Connection"
-#~ msgstr "Scaffold não tem conexão com o banco de dados"
+msgid "Scaffold Missing Database Connection"
+msgstr "Scaffold não tem conexão com o banco de dados"
 
-#~ msgid "Missing Helper Class"
-#~ msgstr "Classe Helper não encontrada"
+msgid "Missing Helper Class"
+msgstr "Classe Helper não encontrada"
 
 #, fuzzy
-#~ msgid "Missing Behavior Class"
-#~ msgstr "Classe Helper não encontrada"
+msgid "Missing Behavior Class"
+msgstr "Classe Helper não encontrada"
 
-#~ msgid "Missing Component Class"
-#~ msgstr "Classe de component não encontrada"
+msgid "Missing Component Class"
+msgstr "Classe de component não encontrada"
 
-#~ msgid "Missing Model"
-#~ msgstr "Model não encontrado"
+msgid "Missing Model"
+msgstr "Model não encontrado"
 
 #, fuzzy
-#~ msgid ""
-#~ "HttpSocket::_decodeBody - Unknown encoding: %s. Activate quirks mode to "
-#~ "surpress error."
-#~ msgstr ""
-#~ "HttpSocket::decodeBody - Unknown encoding: %s. Activate quirks mode to "
-#~ "surpress error.\n"
-#~ "HttpSocket::decodeBody - Encoding desconhecido."
+msgid ""
+"HttpSocket::_decodeBody - Unknown encoding: %s. Activate quirks mode to "
+"surpress error."
+msgstr ""
+"HttpSocket::decodeBody - Unknown encoding: %s. Activate quirks mode to "
+"surpress error.\n"
+"HttpSocket::decodeBody - Encoding desconhecido."
 
-#~ msgid "Magic method handler call__ not defined in %s"
-#~ msgstr "Magic method handler call__ not defined in %s"
+msgid "Magic method handler call__ not defined in %s"
+msgstr "Magic method handler call__ not defined in %s"
 
 #, fuzzy
-#~ msgid "Method decrement() not implemented for compressed cache in %s"
-#~ msgstr "Método read() não implementado em %s"
+msgid "Method decrement() not implemented for compressed cache in %s"
+msgstr "Método read() não implementado em %s"
 
-#~ msgid ""
-#~ "Controller::__construct() : Can not get or parse my own class name, "
-#~ "exiting."
-#~ msgstr ""
-#~ "Controller::__construct() : Não pude ler ou validar meu próprio nome de "
-#~ "classe, saindo."
+msgid ""
+"Controller::__construct() : Can not get or parse my own class name, "
+"exiting."
+msgstr ""
+"Controller::__construct() : Não pude ler ou validar meu próprio nome de "
+"classe, saindo."
 
-#~ msgid "%s::isAuthorized() is not defined."
-#~ msgstr "%s::isAuthorized() não está definido."
+msgid "%s::isAuthorized() is not defined."
+msgstr "%s::isAuthorized() não está definido."
 
-#~ msgid ""
-#~ "Controller::paginate() - can't find model %1$s in controller "
-#~ "%2$sController"
-#~ msgstr ""
-#~ "Controller::paginate() - não pude achar o model %1$s no controller "
-#~ "%2$sController"
+msgid ""
+"Controller::paginate() - can't find model %1$s in controller "
+"%2$sController"
+msgstr ""
+"Controller::paginate() - não pude achar o model %1$s no controller "
+"%2$sController"
 
-#~ msgid "No id set for %s::view()"
-#~ msgstr "Nenhuma id definido para %s::view()"
+msgid "No id set for %s::view()"
+msgstr "Nenhuma id definido para %s::view()"
 
-#~ msgid "Invalid id for %s::edit()"
-#~ msgstr "Id inválido para %s::edit()"
+msgid "Invalid id for %s::edit()"
+msgstr "Id inválido para %s::edit()"
 
-#~ msgid "No id set for %s::delete()"
-#~ msgstr "Nenhuma id definido para %s::delete()"
+msgid "No id set for %s::delete()"
+msgstr "Nenhuma id definido para %s::delete()"
 
-#~ msgid ""
-#~ "[acl_base] The AclBase class constructor has been called, or the class "
-#~ "was instantiated. This class must remain abstract. Please refer to the "
-#~ "Cake docs for ACL configuration."
-#~ msgstr ""
-#~ "[acl_base] O construtor da classe AclBase foi chamado, ou a classe foi "
-#~ "instanciada. Esta classe deve permanecer abstrata. Por favor verifique a "
-#~ "configuração do ACL na documentação do Cake."
+msgid ""
+"[acl_base] The AclBase class constructor has been called, or the class "
+"was instantiated. This class must remain abstract. Please refer to the "
+"Cake docs for ACL configuration."
+msgstr ""
+"[acl_base] O construtor da classe AclBase foi chamado, ou a classe foi "
+"instanciada. Esta classe deve permanecer abstrata. Por favor verifique a "
+"configuração do ACL na documentação do Cake."
 
-#~ msgid ""
-#~ "Could not find AclComponent. Please include Acl in Controller::"
-#~ "$components."
-#~ msgstr ""
-#~ "Não pude encontrar o AclComponent. Por favor inclua Acl em Controller::"
-#~ "$components."
+msgid ""
+"Could not find AclComponent. Please include Acl in Controller::"
+"$components."
+msgstr ""
+"Não pude encontrar o AclComponent. Por favor inclua Acl em Controller::"
+"$components."
 
-#~ msgid ""
-#~ "Could not find $userModel. Please set AuthComponent::$userModel in "
-#~ "beforeFilter()."
-#~ msgstr ""
-#~ "Não pude encontrar o $userModel. Por favor defina AuthComponent::"
-#~ "$userModel em beforeFilter()."
+msgid ""
+"Could not find $userModel. Please set AuthComponent::$userModel in "
+"beforeFilter()."
+msgstr ""
+"Não pude encontrar o $userModel. Por favor defina AuthComponent::"
+"$userModel em beforeFilter()."
 
-#~ msgid "Login failed. Invalid username or password."
-#~ msgstr "Falha no login. Nome de usuário ou senha inválidos."
+msgid "Login failed. Invalid username or password."
+msgstr "Falha no login. Nome de usuário ou senha inválidos."
 
-#~ msgid ""
-#~ "Could not find %s. Set AuthComponent::$object in beforeFilter() or pass a "
-#~ "valid object"
-#~ msgstr ""
-#~ "Não pude encontrar %s. Defina AuthComponent::$object no beforeFilter() ou "
-#~ "passe um objeto válido"
+msgid ""
+"Could not find %s. Set AuthComponent::$object in beforeFilter() or pass a "
+"valid object"
+msgstr ""
+"Não pude encontrar %s. Defina AuthComponent::$object no beforeFilter() ou "
+"passe um objeto válido"
 
-#~ msgid ""
-#~ "Auth::isAuthorized() - $authorize is set to an incorrect value.  Allowed "
-#~ "settings are: \"actions\", \"crud\", \"model\" or null."
-#~ msgstr ""
-#~ "Auth::isAuthorized() - $autorize está definido com um valor incorreto. "
-#~ "Configurações permitidas são: \"actions\", \"crud\", \"model\" ou null."
+msgid ""
+"Auth::isAuthorized() - $authorize is set to an incorrect value.  Allowed "
+"settings are: \"actions\", \"crud\", \"model\" or null."
+msgstr ""
+"Auth::isAuthorized() - $autorize está definido com um valor incorreto. "
+"Configurações permitidas são: \"actions\", \"crud\", \"model\" ou null."
 
-#~ msgid "Auth::getModel() - Model is not set or could not be found"
-#~ msgstr ""
-#~ "Auth::getModel() - O Model não está definido ou não pôde ser encontrado"
+msgid "Auth::getModel() - Model is not set or could not be found"
+msgstr ""
+"Auth::getModel() - O Model não está definido ou não pôde ser encontrado"
 
-#~ msgid ""
-#~ "SecurityComponent::loginCredentials() - Server does not support digest "
-#~ "authentication"
-#~ msgstr ""
-#~ "SecurityComponent::loginCredentials() - O servidor não suporta "
-#~ "autenticação Digest"
+msgid ""
+"SecurityComponent::loginCredentials() - Server does not support digest "
+"authentication"
+msgstr ""
+"SecurityComponent::loginCredentials() - O servidor não suporta "
+"autenticação Digest"
 
-#~ msgid "ConnectionManager::getDataSource - Non-existent data source %s"
-#~ msgstr "ConnectionManager::getDataSource - Fonte de dados %s não existente"
+msgid "ConnectionManager::getDataSource - Non-existent data source %s"
+msgstr "ConnectionManager::getDataSource - Fonte de dados %s não existente"
 
 #, fuzzy
-#~ msgid "ConnectionManager::getDataSource - Could not load class %s"
-#~ msgstr "ConnectionManager::getDataSource - Fonte de dados %s não existente"
+msgid "ConnectionManager::getDataSource - Could not load class %s"
+msgstr "ConnectionManager::getDataSource - Fonte de dados %s não existente"
 
 #, fuzzy
-#~ msgid ""
-#~ "ConnectionManager::loadDataSource - Unable to import DataSource class %s"
-#~ msgstr "ConnectionManager::getDataSource - Fonte de dados %s não existente"
+msgid ""
+"ConnectionManager::loadDataSource - Unable to import DataSource class %s"
+msgstr "ConnectionManager::getDataSource - Fonte de dados %s não existente"
 
-#~ msgid "Invalid join model settings in %s"
-#~ msgstr "Configurações de join inválidas em %s"
+msgid "Invalid join model settings in %s"
+msgstr "Configurações de join inválidas em %s"
 
 #, fuzzy
-#~ msgid "SQL Error:"
-#~ msgstr "Erro:"
+msgid "SQL Error:"
+msgstr "Erro:"
 
-#~ msgid "Aff:%s Num:%s Took:%sms"
-#~ msgstr "Afet:%s Num:%s Tempo:%sms"
+msgid "Aff:%s Num:%s Took:%sms"
+msgstr "Afet:%s Num:%s Tempo:%sms"
 
-#~ msgid "SQL Error in model %s:"
-#~ msgstr "Erro SQL no model %s:"
+msgid "SQL Error in model %s:"
+msgstr "Erro SQL no model %s:"
 
 #, fuzzy
-#~ msgid "FIXME: Can't parse field: "
-#~ msgstr "CORRIJA-ME: Não é possível fazer o parser do campo: %s"
+msgid "FIXME: Can't parse field: "
+msgstr "CORRIJA-ME: Não é possível fazer o parser do campo: %s"
 
-#~ msgid "Must specify table to operate on constraints"
-#~ msgstr ""
-#~ "Uma tabela deve ser especificada para operar em restrições (constraints)"
+msgid "Must specify table to operate on constraints"
+msgstr ""
+"Uma tabela deve ser especificada para operar em restrições (constraints)"
 
-#~ msgid "DboOracle::constraint() accepts only enable, disable, or list"
-#~ msgstr ""
-#~ "DboOracle::constraint() aceita somente \"enable\", \"disable\", ou \"list"
-#~ "\""
+msgid "DboOracle::constraint() accepts only enable, disable, or list"
+msgstr ""
+"DboOracle::constraint() aceita somente \"enable\", \"disable\", ou \"list"
+"\""
 
-#~ msgid "Error in view %s, got: <blockquote>%s</blockquote>"
-#~ msgstr "Erro na view %s: <blockquote>%s</blockquote>"
+msgid "Error in view %s, got: <blockquote>%s</blockquote>"
+msgstr "Erro na view %s: <blockquote>%s</blockquote>"
 
-#~ msgid "Error in layout %s, got: <blockquote>%s</blockquote>"
-#~ msgstr "Erro no layout %s: <blockquote>%s</blockquote>"
+msgid "Error in layout %s, got: <blockquote>%s</blockquote>"
+msgstr "Erro no layout %s: <blockquote>%s</blockquote>"
 
-#~ msgid "If you want to customize this error message, create %s."
-#~ msgstr "Se você quer customizar esta mensagem de erro, crie %s."
+msgid "If you want to customize this error message, create %s."
+msgstr "Se você quer customizar esta mensagem de erro, crie %s."
 
 #, fuzzy
-#~ msgid "The behavior class <em>%s</em> can not be found or does not exist."
-#~ msgstr "A classe helper <em>%s</em> não pode ser encontrada ou não existe."
+msgid "The behavior class <em>%s</em> can not be found or does not exist."
+msgstr "A classe helper <em>%s</em> não pode ser encontrada ou não existe."
 
-#~ msgid "Create the class below in file: %s"
-#~ msgstr "Crie a classe abaixo no arquivo: %s"
+msgid "Create the class below in file: %s"
+msgstr "Crie a classe abaixo no arquivo: %s"
 
 #, fuzzy
-#~ msgid "The Behavior file %s can not be found or does not exist."
-#~ msgstr "O arquivo de helper %s não pode ser encontrado ou não existe."
+msgid "The Behavior file %s can not be found or does not exist."
+msgstr "O arquivo de helper %s não pode ser encontrado ou não existe."
 
-#~ msgid "Create the class %s in file: %s"
-#~ msgstr "Crie a classe %s no arquivo: %s"
+msgid "Create the class %s in file: %s"
+msgstr "Crie a classe %s no arquivo: %s"
 
-#~ msgid "%s requires a database connection"
-#~ msgstr "%s necessita de uma conexão ao banco de dados"
+msgid "%s requires a database connection"
+msgstr "%s necessita de uma conexão ao banco de dados"
 
-#~ msgid "Confirm you have created the file : %s."
-#~ msgstr "Verifique que você criou o arquivo: %s"
+msgid "Confirm you have created the file : %s."
+msgstr "Verifique que você criou o arquivo: %s"
 
-#~ msgid "The helper class <em>%s</em> can not be found or does not exist."
-#~ msgstr "A classe helper <em>%s</em> não pode ser encontrada ou não existe."
+msgid "The helper class <em>%s</em> can not be found or does not exist."
+msgstr "A classe helper <em>%s</em> não pode ser encontrada ou não existe."
 
-#~ msgid "The helper file %s can not be found or does not exist."
-#~ msgstr "O arquivo de helper %s não pode ser encontrado ou não existe."
+msgid "The helper file %s can not be found or does not exist."
+msgstr "O arquivo de helper %s não pode ser encontrado ou não existe."
 
-#~ msgid "<em>%s</em> could not be found."
-#~ msgstr "<em>%s</em> não pôde ser encontrado."
+msgid "<em>%s</em> could not be found."
+msgstr "<em>%s</em> não pôde ser encontrado."
 
-#~ msgid "%s does not have get() implemented"
-#~ msgstr "%s não tem o método get() implementado"
+msgid "%s does not have get() implemented"
+msgstr "%s não tem o método get() implementado"
 
-#~ msgid "%s does not have event() implemented"
-#~ msgstr "%s não tem o método event() implementado"
+msgid "%s does not have event() implemented"
+msgstr "%s não tem o método event() implementado"
 
-#~ msgid "%s does not have domReady() implemented"
-#~ msgstr "%s não tem o método domReady() implementado"
+msgid "%s does not have domReady() implemented"
+msgstr "%s não tem o método domReady() implementado"
 
-#~ msgid "%s does not have effect() implemented"
-#~ msgstr "%s não tem o método effect() implementado"
+msgid "%s does not have effect() implemented"
+msgstr "%s não tem o método effect() implementado"
 
-#~ msgid "%s does not have request() implemented"
-#~ msgstr "%s não tem o método request() implementado"
+msgid "%s does not have request() implemented"
+msgstr "%s não tem o método request() implementado"
 
-#~ msgid "%s does not have drag() implemented"
-#~ msgstr "%s não tem o método drag() implementado"
+msgid "%s does not have drag() implemented"
+msgstr "%s não tem o método drag() implementado"
 
-#~ msgid "%s does not have drop() implemented"
-#~ msgstr "%s não tem o método drop() implementado"
+msgid "%s does not have drop() implemented"
+msgstr "%s não tem o método drop() implementado"
 
-#~ msgid "%s does not have sortable() implemented"
-#~ msgstr "%s não tem o método sortable() implementado"
+msgid "%s does not have sortable() implemented"
+msgstr "%s não tem o método sortable() implementado"
 
-#~ msgid "%s does not have slider() implemented"
-#~ msgstr "%s não tem o método slider() implementado"
+msgid "%s does not have slider() implemented"
+msgstr "%s não tem o método slider() implementado"
 
-#~ msgid "%s does not have serializeForm() implemented"
-#~ msgstr "%s não tem o método serializeForm() implementado"
+msgid "%s does not have serializeForm() implemented"
+msgstr "%s não tem o método serializeForm() implementado"
 
-#~ msgid "%d KB"
-#~ msgstr "%d KB"
+msgid "%d KB"
+msgstr "%d KB"
 
-#~ msgid "%.2f MB"
-#~ msgstr "%.2f MB"
+msgid "%.2f MB"
+msgstr "%.2f MB"
 
-#~ msgid "%.2f GB"
-#~ msgstr "%.2f GB"
+msgid "%.2f GB"
+msgstr "%.2f GB"
 
-#~ msgid "%.2f TB"
-#~ msgstr "%.2f TB"
+msgid "%.2f TB"
+msgstr "%.2f TB"
 
-#~ msgid "You can not write to a Session from the view"
-#~ msgstr "Você não pode escrever em Session da view "
+msgid "You can not write to a Session from the view"
+msgstr "Você não pode escrever em Session da view "
 
-#~ msgid "Rename config/database.php.default to config/database.php"
-#~ msgstr "Renomeie config/database.php.default para config/database.php"
+msgid "Rename config/database.php.default to config/database.php"
+msgstr "Renomeie config/database.php.default para config/database.php"
 
-#~ msgid ""
-#~ "To change the content of this page, create: APP/views/pages/home.ctp.<br /"
-#~ ">\n"
-#~ "To change its layout, create: APP/views/layouts/default.ctp.<br />\n"
-#~ "You can also add some CSS styles for your pages at: APP/webroot/css."
-#~ msgstr ""
-#~ "Para alterar o conteúdo desta página, crie: APP/views/pages/home.ctp.<br /"
-#~ ">\n"
-#~ "Para alterar seu layout, crie: APP/views/layouts/default.ctp.<br />\n"
-#~ "Você também pode adicionar estilos CSS para suas páginas em: APP/webroot/"
-#~ "css."
+msgid ""
+"To change the content of this page, create: APP/views/pages/home.ctp.<br /"
+">\n"
+"To change its layout, create: APP/views/layouts/default.ctp.<br />\n"
+"You can also add some CSS styles for your pages at: APP/webroot/css."
+msgstr ""
+"Para alterar o conteúdo desta página, crie: APP/views/pages/home.ctp.<br /"
+">\n"
+"Para alterar seu layout, crie: APP/views/layouts/default.ctp.<br />\n"
+"Você também pode adicionar estilos CSS para suas páginas em: APP/webroot/"
+"css."
 
-#~ msgid "CakePHP"
-#~ msgstr "CakePHP"
+msgid "CakePHP"
+msgstr "CakePHP"
 
-#~ msgid "The Show"
-#~ msgstr "The Show"
+msgid "The Show"
+msgstr "The Show"
 
-#~ msgid ""
-#~ "The Show is a live and archived internet radio broadcast CakePHP-related "
-#~ "topics and answer questions live via IRC, Skype, and telephone."
-#~ msgstr ""
-#~ "The Show é uma rádio online ao vivo ou arquivada discutindo tópicos "
-#~ "relacionados ao CakePHP e respondemos perguntas feitas ao vivo via IRC, "
-#~ "Skype e telefone."
+msgid ""
+"The Show is a live and archived internet radio broadcast CakePHP-related "
+"topics and answer questions live via IRC, Skype, and telephone."
+msgstr ""
+"The Show é uma rádio online ao vivo ou arquivada discutindo tópicos "
+"relacionados ao CakePHP e respondemos perguntas feitas ao vivo via IRC, "
+"Skype e telefone."
 
 #, fuzzy
-#~ msgid ""
-#~ "For the Development of CakePHP (Tickets, Git browser, Roadmap, Changelogs)"
-#~ msgstr ""
-#~ "Para o desenvolvimento do CakePHP (Tickets, SVN browser, Roadmap, "
-#~ "Changelogs)"
+msgid ""
+"For the Development of CakePHP (Tickets, Git browser, Roadmap, Changelogs)"
+msgstr ""
+"Para o desenvolvimento do CakePHP (Tickets, SVN browser, Roadmap, "
+"Changelogs)"
 
-#~ msgid "Open Development for CakePHP"
-#~ msgstr "Desenvolvimento Open para CakePHP"
+msgid "Open Development for CakePHP"
+msgstr "Desenvolvimento Open para CakePHP"
 
-#~ msgid "Book Store"
-#~ msgstr "Book Store"
+msgid "Book Store"
+msgstr "Book Store"
 
-#~ msgid "Recommended Software Books"
-#~ msgstr "Livros recomendados"
+msgid "Recommended Software Books"
+msgstr "Livros recomendados"
 
-#~ msgid "CakePHP gear"
-#~ msgstr "CakePHP gear"
+msgid "CakePHP gear"
+msgstr "CakePHP gear"
 
-#~ msgid "Plural Rule 1"
-#~ msgstr "Plural Rule 1"
+msgid "Plural Rule 1"
+msgstr "Plural Rule 1"
 
-#~ msgid "Plural Rule 1 (from core)"
-#~ msgstr "Plural Rule 1 (from core)"
+msgid "Plural Rule 1 (from core)"
+msgstr "Plural Rule 1 (from core)"
 
-#~ msgid "%d = 1"
-#~ msgid_plural "%d = 0 or > 1"
-#~ msgstr[0] "%d = 1"
-#~ msgstr[1] "%d = 0 or > 1"
+msgid "%d = 1"
+msgid_plural "%d = 0 or > 1"
+msgstr[0] "%d = 1"
+msgstr[1] "%d = 0 or > 1"
 
-#~ msgid "%d = 1 (from core)"
-#~ msgid_plural "%d = 0 or > 1 (from core)"
-#~ msgstr[0] "%d = 1 (from core)"
-#~ msgstr[1] "%d = 0 or > 1 (from core)"
+msgid "%d = 1 (from core)"
+msgid_plural "%d = 0 or > 1 (from core)"
+msgstr[0] "%d = 1 (from core)"
+msgstr[1] "%d = 0 or > 1 (from core)"
 
-#~ msgid "No Translation needed"
-#~ msgstr "No Translation needed"
+msgid "No Translation needed"
+msgstr "No Translation needed"
 
-#~ msgid "this is a \"quoted string\""
-#~ msgstr "this is a \"quoted string\""
+msgid "this is a \"quoted string\""
+msgstr "this is a \"quoted string\""
 
-#~ msgid "Le login doit contenir au moins 2 caractères"
-#~ msgstr "Le login doit contenir au moins 2 caractères"
+msgid "Le login doit contenir au moins 2 caractères"
+msgstr "Le login doit contenir au moins 2 caractères"
 
 #, fuzzy
-#~ msgid "Group test %s cannot be found at %s"
-#~ msgstr "O arquivo de layout %s não pode ser encontrado ou não existe."
+msgid "Group test %s cannot be found at %s"
+msgstr "O arquivo de layout %s não pode ser encontrado ou não existe."
 
 #, fuzzy
-#~ msgid "Your tmp directory is "
-#~ msgstr "Seu diretório tmp está com permissão de escrita"
+msgid "Your tmp directory is "
+msgstr "Seu diretório tmp está com permissão de escrita"
 
 #, fuzzy
-#~ msgid "writable."
-#~ msgstr "%s sem permissão de escrita"
+msgid "writable."
+msgstr "%s sem permissão de escrita"
 
 #, fuzzy
-#~ msgid "NOT writable."
-#~ msgstr "%s sem permissão de escrita"
+msgid "NOT writable."
+msgstr "%s sem permissão de escrita"
 
-#~ msgid "Your cache is "
-#~ msgstr "Seu cache é "
+msgid "Your cache is "
+msgstr "Seu cache é "
 
 #, fuzzy
-#~ msgid " is being used to cache, to change this edit config/core.php "
-#~ msgstr ""
-#~ "O %s está sendo usado para cache. Para mudar as configurações edite APP/"
-#~ "config/core.php"
+msgid " is being used to cache, to change this edit config/core.php "
+msgstr ""
+"O %s está sendo usado para cache. Para mudar as configurações edite APP/"
+"config/core.php"
 
-#~ msgid "Cake"
-#~ msgstr "Cake"
+msgid "Cake"
+msgstr "Cake"
 
-#~ msgid "Get your own CakePHP gear - Doughnate to Cake"
-#~ msgstr ""
-#~ "Compre seus acessórios do CakePHP. Camisetas, bonés, cuecas(!) e mais. "
-#~ "Ajude o desenvolvimento do Cake!"
+msgid "Get your own CakePHP gear - Doughnate to Cake"
+msgstr ""
+"Compre seus acessórios do CakePHP. Camisetas, bonés, cuecas(!) e mais. "
+"Ajude o desenvolvimento do Cake!"
 
-#~ msgid "CakePHP Manual"
-#~ msgstr "CakePHP Manual"
+msgid "CakePHP Manual"
+msgstr "CakePHP Manual"
 
-#~ msgid "CakePHP Trac"
-#~ msgstr "CakePHP Trac"
+msgid "CakePHP Trac"
+msgstr "CakePHP Trac"
 
-#~ msgid ""
-#~ "For the Development of CakePHP (Tickets, SVN browser, Roadmap, Changelogs)"
-#~ msgstr ""
-#~ "Para o desenvolvimento do CakePHP (Tickets, SVN browser, Roadmap, "
-#~ "Changelogs)"
+msgid ""
+"For the Development of CakePHP (Tickets, SVN browser, Roadmap, Changelogs)"
+msgstr ""
+"Para o desenvolvimento do CakePHP (Tickets, SVN browser, Roadmap, "
+"Changelogs)"
 
-#~ msgid "To identify the node and parent, use the row id."
-#~ msgstr "Para identificar o nó e o pai, use a coluna id."
+msgid "To identify the node and parent, use the row id."
+msgstr "Para identificar o nó e o pai, use a coluna id."
 
-#~ msgid "command not found"
-#~ msgstr "comando não encontrado"
+msgid "command not found"
+msgstr "comando não encontrado"
 
-#~ msgid "What is the name of the table (enter \"null\" to use NO table)?"
-#~ msgstr ""
-#~ "Qual o nome da tabela (digite \"null\" para NÃO usar tabela alguma)?"
+msgid "What is the name of the table (enter \"null\" to use NO table)?"
+msgstr ""
+"Qual o nome da tabela (digite \"null\" para NÃO usar tabela alguma)?"
 
-#~ msgid "This is a self join. Use %s as the alias"
-#~ msgstr "Isto é um self join. Use %s como alias"
+msgid "This is a self join. Use %s as the alias"
+msgstr "Isto é um self join. Use %s como alias"
 
-#~ msgid ""
-#~ "The selection you entered was invalid. Please enter a number between 1 "
-#~ "and 4."
-#~ msgstr ""
-#~ "A seleção que você digitou é inválida. Por favor digite um número entre 1 "
-#~ "e 4."
+msgid ""
+"The selection you entered was invalid. Please enter a number between 1 "
+"and 4."
+msgstr ""
+"A seleção que você digitou é inválida. Por favor digite um número entre 1 "
+"e 4."
 
-#~ msgid "Enter the class to test or (q)uit"
-#~ msgstr "Digite a classe para testar ou 'q' para sair"
+msgid "Enter the class to test or (q)uit"
+msgstr "Digite a classe para testar ou 'q' para sair"
 
-#~ msgid "Enter a test case or (q)uit"
-#~ msgstr "Digite um test case ou 'q' para sair"
+msgid "Enter a test case or (q)uit"
+msgstr "Digite um test case ou 'q' para sair"
 
-#~ msgid "Is this correct?"
-#~ msgstr "Isto está correto?"
+msgid "Is this correct?"
+msgstr "Isto está correto?"
 
-#~ msgid "Unable to load DataSource file %s.php"
-#~ msgstr "Impossível carregar arquivo DataSource %s.php"
+msgid "Unable to load DataSource file %s.php"
+msgstr "Impossível carregar arquivo DataSource %s.php"
 
-#~ msgid ""
-#~ "(TextHelper::flay) Deprecated: the Flay library is no longer supported "
-#~ "and will be removed in a future version."
-#~ msgstr ""
-#~ "(TextHelper::flay) Descontinuado: a biblioteca Flay não é mais suportada "
-#~ "e será removida em uma versão futura."
+msgid ""
+"(TextHelper::flay) Deprecated: the Flay library is no longer supported "
+"and will be removed in a future version."
+msgstr ""
+"(TextHelper::flay) Descontinuado: a biblioteca Flay não é mais suportada "
+"e será removida em uma versão futura."
